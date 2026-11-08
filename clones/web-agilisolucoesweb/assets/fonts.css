@@ -1,0 +1,23 @@
+/* MONTSERRAT */
+@import url("208134b2-css2.css");
+
+/* NOTO SANS */
+@import url("1b2eea9b-css2.css");
+
+/*ROBOTO*/
+@import url("fcac88ff-css2.css");
+
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url("ad3e73f3-icomoon.eot");
+    src:  url("ad3e73f3-icomoon.eot") format('embedded-opentype'),
+    url("3b74fdd5-icomoon.ttf") format('truetype'),
+    url("848d1bc8-icomoon.woff") format('woff'),
+    url("3dac2469-icomoon.svg") format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+

@@ -1,0 +1,210 @@
+:root{
+    /*Cores Primárias*/
+    --azul-soft:#b6dcff;
+    --azul-soft-op-20:#b6dcff32;
+    --azul-soft-op-40: rgba(182, 220, 255, 0.4);
+    --azul-mentora:#04044c;
+    --azul-mentora2:#07077aa2;
+    --azul-medio:#8abaff;
+    --azul-avante:#1D50DC;
+    --azul-avante-table: transparent;
+    --azul-avante-rgb-hex: #d4e4f9;
+    --azul-avante-op-20:#1D50DC20;
+    --azul-avante-op-40:#1D50DC40;
+    --azul-escuro-avante:#1D50DC40;
+    --azul-escuro-avanteV2:#1D50DC80;
+    --cool-grey-background:#dadada;
+    --cool-grey:#f6f9fc;
+    --cool-grey-2:#c3d0d8;
+    --cool-grey-3:#95a7b5;
+    --warm-grey: #F5F5F5;
+    --cool-light-gray:#F2F2F2;
+    --gray:#999;
+    --itens-menu:#0e0e0e;
+    --menu-color:#95a7b5;
+    --cool-grey-4:#4e4f51;
+    --cool-grey-5:#F5F5F5;
+    --cool-grey-bg: #EDF2F7;
+    --cool-grey-bg-new: #f4f7f9;
+    --avante-purple:#4a526b;
+    --dark-purple:#282e3f;
+    --menu-hover:#282e3f;
+    --dark-purple-op-15:rgba(40, 46, 63, 0.15);
+    --dark-purple-op-10:rgba(40, 46, 63, 0.1);
+    /*Cores Secundárias*/
+    /*  Lilas  */
+    --soft-lilas:#d7d3f4;
+    --lilas:#bdaff4;
+    --lilas-avante:#a688e7;
+    --dark-lilas:#7257b3;
+    /*  pink  */
+    --soft-pink:#ecc0f9;
+    --pink:#f9a4ea;
+    /*  violeta  */
+    --violeta:#9252ac;
+    --dark-violeta:#5f3772;
+    /*  yellow  */
+    --soft-yellow:#f9e6b9;
+    --yellow-avante:#fdd76a;
+    --ouro:#f0b64b;
+    --cobre:#ce7c3a;
+    /*  verde  */
+    --soft-agro:#aff9cd;
+    --verde-avante:#74e4a2;
+    --verde-escuro-avante:#74e4a240;
+    --verde-escuro-avanteV2:#74e4a280;
+    --verde-agro:#3ecf8e;
+    --dark-agro:#139771;
+    --verde-mentora:#045504;
+    --verde-mentora2:#08750877;
+    --verde-mentora3:#045430;
+    --verde-soft: #9BCD9B76;
+
+    --marrom-batom:#8a483f;
+    --marrom-batom2:#ffb79c;
+
+    --vermelho-food:#f9755a;
+    --vermelho-food2:#9f5432;
+    --vermelho-food3:#FF6666;
+    --vermelho-claro-food:#f9755a40;
+    --vermelho-forte-food:#f9755a80;
+
+
+    /*  verde  */
+    --soft-rose:#fcddd4;
+    --rose:#ffb79c;
+    --laranja-avante:#f9755a;
+    --amber:#c65240;
+    /*Alerta*/
+    --red-alert-soft:#ffeeee;
+    --red-alert:#fc2d2d;
+    /*Inválidos*/
+    --areia:#fff8ea;
+    /*Vermelhos*/
+    --vermelho-silas: #ee3539;
+    --vermelho-fraco-silas: #e28586;
+    --cinza-silas: #949b9c;
+    --vermelho-soft: #FFE8E5;
+
+    --pet-principal: #FFD45C;
+    --pet-secundaria: #FFA94F;
+    --pet-terciario: #9789ff;
+
+    --pet-secundaria-hotel: #9789ff;
+
+    --container-geral: #f4f7f9;
+    --container-texto: #282E3F;
+    --tab-disabled: #E5E8EC;
+
+    --branco-subtable : rgba(252, 254, 254);
+
+    --salao-principal: #FF7896;
+    --barbearia-principal: #282e3f;
+
+    --black: #1B1B1C;
+    --black-01: #000;
+    --preto: #424242;
+
+    /*<editor-fold desc="Food">*/
+
+    --container-geral-food: #efe9e9;
+    /*</editor-fold>*/
+}
+
+.c-dark {
+    color: var(--dark-purple)!important;
+}
+.c-white {
+    color: #fff!important;
+}
+
+.c-preto {
+    color: var(--preto)!important;
+}
+
+.c-black {
+    color: var(--black)!important;
+}
+
+.c-black-01 {
+    color: var(--black-01)!important;
+}
+
+.c-grey {
+    color: var(--cool-grey-3)!important;
+}
+
+.c-primaria {
+    color: var(--azul-avante)!important;
+}
+.c-secundaria {
+    color: var(--azul-soft)!important;
+}
+
+.c-vermelho-food {
+    color: var(--vermelho-food)!important;
+}
+
+.c-green {
+    color: #18A92E!important;
+}
+
+.c-red {
+    color: #C10000!important;
+}
+
+.c-646464 {
+    color: #646464!important;
+}
+
+.b-primaria {
+    background-color: var(--azul-avante)!important;
+}
+
+.b-secundaria {
+    background-color: var(--azul-soft)!important;
+}
+
+.b-grey-5 {
+    background-color: var(--cool-grey-5)!important;
+}
+
+.b-mix-25 {
+    background-color: color-mix(in srgb, var(--azul-avante) 25%, white);
+}
+
+.b-mix-16 {
+    background-color: color-mix(in srgb, var(--azul-avante) 16%, white);
+}
+
+.b-mix-secundaria-16 {
+    background-color: color-mix(in srgb, var(--azul-soft) 16%, white);
+}
+
+.b-branca {
+    background-color: #fff!important;
+}
+
+.b-grey-3 {
+    background-color: var(--cool-grey-3)!important;
+}
+
+.mix-25 {
+    background-color: color-mix(in srgb, var(--azul-avante) 25%, white)!important;
+    color: var(--azul-avante)!important;
+}
+
+.mix-secundaria-25 {
+    background-color: color-mix(in srgb, var(--azul-soft) 25%, white)!important;
+    color: var(--azul-soft)!important;
+}
+
+.b-mix-secundaria-16 {
+    background-color: color-mix(in srgb, var(--azul-soft) 16%, white)!important;
+}
+
+
+
+.shadow-01 {
+    box-shadow: 0 0 50px -15px rgba(0, 0, 0, 0.25);
+}

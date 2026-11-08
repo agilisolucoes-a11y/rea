@@ -1,0 +1,839 @@
+.ui-button {
+    display: flex;
+    margin: 0!important;
+    gap: 4px;
+    height: 36px !important;
+    width: fit-content!important;
+    min-width: 160px;
+    /*max-width: 160px;*/
+    padding: 0px 16px;
+    text-align: center;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none!important;
+    -webkit-transition: background-color 1s ease-out !important;
+    -moz-transition: background-color 1s ease-out !important;
+    -o-transition: background-color 1s ease-out !important;
+    transition: background-color 1s ease-out !important;
+
+    border-radius: 5px!important;
+}
+
+body .ui-button {
+    overflow: hidden;
+    background-color: var(--azul-avante);
+    color: #ffffff;
+    height: 30px;
+    padding: 0 14px;
+    border: 0 none;
+    -moz-box-shadow: 0 1px 2.5px 0 rgba(0, 0, 0, 0.26), 0 1px 5px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 1px 2.5px 0 rgba(0, 0, 0, 0.26), 0 1px 5px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 1px 2.5px 0 rgba(0, 0, 0, 0.26), 0 1px 5px 0 rgba(0, 0, 0, 0.16);
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.ui-button .ui-button-text {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.ui-button:disabled{
+    background-color: var(--cool-grey-2) !important;
+    opacity: unset !important;
+}
+
+.ui-button.ver1 {
+    background: var(--azul-avante);
+}
+
+.ui-button.ver1.secundario {
+    background: var(--azul-soft);
+}
+
+.ui-button.ver2 {
+    background: var(--dark-purple)!important;
+}
+.ui-button.ver3 {
+    background: #fff;
+}
+.ui-button.ver4 {
+    background: #fff;
+    border: solid 1px var(--dark-purple);
+}
+
+.ui-button.verSecundaria {
+    background-color: color-mix(in srgb, var(--azul-soft) 25%, white)!important;
+    color: var(--azul-soft)!important;
+}
+
+.ui-button.verPrimariaMix {
+    background-color: color-mix(in srgb, var(--azul-avante) 25%, white)!important;
+    color: var(--azul-avante)!important;
+}
+
+
+.ui-button.verPrimariaMix:hover {
+    background-color: color-mix(in srgb, var(--azul-avante) 25%, white)!important;
+    color: var(--azul-avante)!important;
+}
+
+.ui-button.ver4:disabled{
+    border: none;
+    color: #FFFFFF;
+}
+
+.ui-button.ver4:disabled span.ui-button-text {
+    color: #FFFFFF;
+}
+
+.ui-button.ver5-atencao {
+    background: #e53e3e;
+    border: solid 1px var(--vermelho-food);
+}
+
+.ui-button:not(.btnMinWidth):not(.voltar):not(.dashboard-grafico-botao):not(.btn-branco):not(.ok-button):hover {
+    background-color: var(--azul-soft)!important;
+}
+
+.ui-button.ver4 span.ui-button-text {
+    color: var(--dark-purple);
+}
+
+.ui-button.ver3 span.ui-button-text {
+    color: var(--azul-avante);
+}
+
+.btn-redondo {
+    width: 110px!important;
+    height: 28px!important;
+    padding: 8px 32px 8px 32px!important;
+    border-radius: 30px !important;
+    gap: 4px;
+
+    display: flex!important;
+    margin: 0!important;
+    min-width: 160px;
+    /*max-width: 160px;*/
+    text-align: center;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none!important;
+    -webkit-transition: background-color 1s ease-out !important;
+    -moz-transition: background-color 1s ease-out !important;
+    -o-transition: background-color 1s ease-out !important;
+    transition: background-color 1s ease-out !important;
+}
+
+.dash-logo-transparente {
+    margin-left: 35px!important;
+    margin-right: -8px!important;
+    margin-top: -7px!important;
+    display: flex!important;
+    justify-content: center!important;
+    width: 14px!important;
+    height: 14px!important;
+    flex-shrink: 0;
+    background:transparent url("dashBranco.svg") no-repeat 0 0!important;
+    background-size: contain!important;
+    transform: scale(75%);
+}
+
+.ui-button.btn-branco{
+    background-color: #fff;
+    color: var(--azul-avante);
+    border: 1px solid;
+}
+
+.ui-button.btn-branco:hover{
+    text-decoration: none!important;
+    transition: background-color 0.5s;
+    background-color: var(--azul-avante-op-40) !important;
+}
+
+/*////////////////////////VOLTAR////////////////////////*/
+
+/*<editor-fold desc="VOLTAR">*/
+body .ui-button.voltarV2.ui-button-icon-only .ui-icon {
+    margin-left: -7px!important;
+    margin-right: -8px!important;
+    margin-top: -9px!important;
+}
+
+.ui-button.voltarV2 {
+
+    min-width: unset!important;
+
+    display: flex!important;
+    width: 36px !important;
+    height: 36px !important;
+    padding: 0px 16px 0px 16px!important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 5px !important;
+    background-color: color-mix(in srgb, var(--azul-avante) 16%, #fff)!important;
+}
+
+.voltarV2 {
+    display: flex!important;
+    width: 36px !important;
+    height: 36px !important;
+    padding: 0px 16px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 5px !important;
+    background: var(--azul-escuro-avante) !important;
+}
+.voltar-icone {
+    margin-left: -8px!important;
+    margin-right: -8px!important;
+    display: flex!important;
+    justify-content: center!important;
+    width: 14px!important;
+    height: 14px!important  ;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.voltar-icone:before {
+    font-family: icomoon;
+    content: "\e91e" !important;
+    color: var(--azul-avante);
+    font-size: 0.9em;
+}
+/*</editor-fold>*/
+
+/*<editor-fold desc="Icones Botoes">*/
+.consultar-icone {
+    display: flex !important;
+    justify-content: left !important;
+    align-items: baseline!important;
+    width: 100% !important;
+    height: 14px !important;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.consultar-icone:before {
+    font-family: FontAwesome;
+    content: "\f002" !important;
+    color: var(--azul-avante);
+    font-size: 0.9em;
+}
+/*</editor-fold>*/
+
+/*////////////////////////EXPORTAR XLS////////////////////////*/
+
+/*<editor-fold desc="EXPORTAR XLS">*/
+/*IMPLEMENTACAO USANDO COMMANDLINK*/
+
+.exportar-xls {
+    text-decoration: none!important;
+    width: fit-content!important;
+    display: flex;
+    height: 36px;
+    min-width: 160px;
+    padding: 0 16px 0 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+
+    background: var(--verde-escuro-avante);
+}
+
+.exportar-xls:after {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+    content: "Exportar arquivo .xls";
+    color: var(--verde-agro);
+}
+
+.exportar-xls:hover {
+    text-decoration: none!important;
+    transition: background-color 0.5s;
+    background-color: var(--verde-escuro-avanteV2);
+}
+
+
+/*IMPLEMENTACAO USANDO COMMANDBUTTON*/
+.ui-button.exportar-xls {
+    display: flex;
+    height: 36px;
+    min-width: 160px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+
+    background: var(--verde-escuro-avante);
+}
+.ui-button:not(.voltar):not(.dashboard-grafico-botao).ui-button.exportar-xls:hover {
+    background: var(--verde-escuro-avanteV2);
+}
+.ui-button.exportar-xls span.ui-button-text {
+    color: var(--verde-agro);
+}
+
+
+/*ICONE*/
+.exportar-xls-icone {
+    width: 14px!important;
+    height: 14px!important;
+    flex-shrink: 0;
+    background-image: url("exportar-xls.svg")!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex!important;
+    justify-content: center!important;
+}
+/*</editor-fold>*/
+
+/*////////////////////////ADICIONAR////////////////////////*/
+
+/*<editor-fold desc="ADICIONAR (COMMANDBUTTON)">*/
+.ui-button.adicionar {
+    display: flex;
+    height: 36px;
+    min-width: 160px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+
+    background-color: color-mix(in srgb, var(--azul-avante) 16%, #fff);
+
+}
+.ui-button:not(.voltar):not(.dashboard-grafico-botao).ui-button.adicionar:hover {
+    background: var(--azul-escuro-avanteV2);
+}
+.ui-button.adicionar span.ui-button-text {
+    color: var(--azul-avante);
+}
+
+.adicionar-icone {
+    width: 15px!important;
+    height: 15px!important;
+    flex-shrink: 0;
+    background-image: url("adicionar-icone.svg")!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-left: 36px!important;
+    margin-right: 36px!important;
+    margin-top: -9px!important;
+}
+/*</editor-fold>*/
+
+/*<editor-fold desc="ADICIONAR (COMMANDLINK)">*/
+.adicionar {
+    text-decoration: none!important;
+    width: fit-content!important;
+    display: flex;
+    height: 36px;
+    min-width: 160px;
+    padding: 0 16px 0 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+
+    background: var(--azul-escuro-avante);
+}
+
+.adicionar:after {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+    color: var(--azul-avante);
+}
+
+.adicionar:hover {
+    text-decoration: none!important;
+    transition: background-color 0.5s;
+    background-color: var(--azul-escuro-avanteV2);
+}
+/*</editor-fold>*/
+
+
+.table-button-container {
+    /*width: 160px;*/
+    width: auto;
+    height: 36px;
+    padding: 0px 16px;
+    border-radius: 5px;
+    gap: 8px;
+    background: color-mix(in srgb, var(--azul-avante) 16%, #fff);
+    display: flex;
+    align-items: center;
+}
+
+.table-button-container-r {
+    /*width: 160px;*/
+    width: auto;
+    height: 36px;
+    padding: 0px 16px;
+    border-radius: 5px;
+    gap: 8px;
+    background: var(--vermelho-soft);
+    display: flex;
+    align-items: center;
+}
+
+.table-button-container:hover {
+    text-decoration: none!important;
+    transition: background-color 0.5s;
+    background-color: color-mix(in srgb, var(--azul-avante) 16%, #fff);
+    opacity: 0.8 !important;
+}
+
+/* Styling for the icon */
+.icon-duplicar:before {
+    font-family: icomoon;
+    content: "\e90b";
+    color: var(--azul-avante);
+    font-size: 1em;
+}
+
+.table-envio-em-lote-nfe:before {
+    font-family: icomoon;
+    content: "\e97e";
+    color: var(--azul-avante);
+    font-size: 1.3em;
+}
+
+.icon-producao:before {
+    font-family: icomoon;
+    content: "\e941";
+    color: var(--azul-avante);
+    font-size: 1.15em;
+    position: relative;
+    bottom: 1.55px;
+    right: 1px;
+}
+
+.icon-planilha:before {
+    font-family: icomoon;
+    content: "\e914";
+    color: var(--azul-avante);
+    font-size: 1em;
+}
+
+.icon-download:before {
+    font-family: icomoon;
+    content: "\e90a";
+    color: var(--azul-avante);
+    font-size: 1em;
+}
+
+/* Styling for the text */
+.table-button-text {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+    color: var(--azul-avante);
+}
+
+.table-button-text-r {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+    color: var(--vermelho-food);
+    /*color: var(--azul-avante);*/
+}
+
+/*////////////////////////ÍCONE DO DIALOG DE MSG////////////////////////*/
+
+/*<editor-fold desc="ICONE DO DIALOG ">*/
+.blue-background {
+    width: 48px;
+    height: 48px;
+    /*background: var(--azul-avante-op-40);*/
+    background: color-mix(in srgb, var(--azul-avante) 25%, #fff);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-icone {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.iconeDialogMensagem {
+    display: flex!important;
+    width: 36px !important;
+    height: 24px !important;
+    padding: 0px 16px !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    gap: 8px !important;
+
+    border-radius: 5px !important;
+    flex-shrink: 0;
+    background-position: center;
+    background-image: url("action-icon-exclamacao.svg")!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*</editor-fold>*/
+
+
+/*////////////////////////EXCLUIR////////////////////////*/
+
+/*<editor-fold desc="EXCLUIR">*/
+.ui-button.excluir {
+    display: flex;
+    height: 36px;
+    min-width: 160px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+
+    background: var(--vermelho-claro-food);
+}
+.ui-button:not(.voltar):not(.dashboard-grafico-botao).ui-button.excluir:hover {
+    background-color: var(--vermelho-forte-food)!important;
+}
+.ui-button.excluir span.ui-button-text {
+    color: var(--vermelho-food);
+}
+
+.excluir-icone {
+    width: 14px!important;
+    height: 14px!important;
+    flex-shrink: 0;
+    background-image: url("excluir-icone.svg")!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-left: 36px!important;
+    margin-right: 20px!important;
+    margin-top: -8px!important;
+}
+/*</editor-fold>*/
+
+/*////////////////////////MARCAR/DESMARCAR BOOLEAN BUTTON////////////////////////*/
+
+.ui-selectbooleanbutton  span.ui-button-text {
+    margin-top: 3px!important;
+}
+
+/*////////////////////////BOTOES FILEUPLOAD////////////////////////*/
+body .ui-fileupload .ui-fileupload-buttonbar .ui-button {
+    background-color: var(--azul-avante)!important;
+    color: #FFFFFF!important;
+    margin-right: 6px;
+}
+body .ui-fileupload .ui-fileupload-buttonbar .ui-fileupload-cancel {
+    bottom: -45px!important;
+    position: absolute!important;
+    left: 175px!important;
+}
+body .ui-fileupload .ui-fileupload-buttonbar .ui-fileupload-upload {
+    bottom: -45px!important;
+    position: absolute!important;
+    left: 0!important;
+}
+
+body .ui-fileupload .ui-fileupload-buttonbar .ui-fileupload-cancel {
+    display: flex!important;
+    background-color: var(--azul-avante)!important;
+}
+body .ui-fileupload .ui-fileupload-buttonbar .ui-fileupload-upload {
+    background-color: var(--azul-avante)!important;
+    display: flex!important;
+}
+
+body .ui-fileupload .ui-fileupload-buttonbar .ui-button .ui-icon {
+    color: var(--azul-avante)!important;
+}
+
+/*////////////////////////BOTOES PET////////////////////////*/
+
+.ui-button.pet-ver1 {
+    background: var(--pet-terciario);
+}
+
+/*////////////////////////OUTROS////////////////////////*/
+
+body .ui-selectbooleanbutton.ui-state-active {
+    background-color: var(--azul-avante)!important;
+    color: #000000!important;
+}
+body .ui-selectbooleanbutton.ui-state-active .ui-icon {
+    color: #000000!important;
+}
+
+/*<editor-fold desc="Botão food">*/
+.ver1Food.ui-button {
+    background: var(--azul-avante) !important;
+    min-width: 90px !important;
+    border-radius: 5px !important;
+    height: 25px !important;
+    color: #fff;
+    text-align: center;
+}
+
+.ver1Food.abrir.ui-button{
+    background: var(--verde-agro) !important;
+}
+
+.ver1Food.editar-reservado.ui-button{
+    background: #1D50DC !important;
+}
+
+.ver2Food.ui-button {
+    background: var(--dark-purple) !important;
+    min-width: 90px !important;
+    border-radius: 5px !important;
+    height: 25px !important;
+    color: #fff;
+    text-align: center;
+}
+
+.ver3Food.ui-button {
+    background: transparent !important;
+    border: 1px solid var(--azul-avante);
+    min-width: 90px !important;
+    border-radius: 5px !important;
+    height: 25px !important;
+    color: #fff;
+    text-align: center;
+}
+
+.ver4Food-menor.ui-button{
+    background-color: color-mix(in srgb, var(--azul-avante) 25%, #fff);
+    width: 80px !important;
+    border-radius: 5px !important;
+    height: 36px !important;
+    text-align: center;
+}
+
+.ver4Food.ui-button {
+    background-color: color-mix(in srgb, var(--azul-avante) 25%, #fff);
+    width: 160px !important;
+    border-radius: 5px !important;
+    height: 36px !important;
+    text-align: center;
+}
+
+.ver5Food.ui-button {
+    background-color: color-mix(in srgb, var(--verde-agro) 25%, #fff);
+    width: 160px !important;
+    border-radius: 5px !important;
+    height: 36px !important;
+    text-align: center;
+}
+
+.ver6Food.ui-button {
+    background-color: #000000!important;
+    width: auto !important;
+    min-width: unset!important;
+    border-radius: 5px !important;
+    height: 40px !important;
+    text-align: center;
+}
+
+.ver1Food.ui-button .ui-button-text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ver2Food.ui-button .ui-button-text {
+    color: #fff;
+    text-align: center;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ver3Food.ui-button .ui-button-text,
+.ver4Food.ui-button .ui-button-text,
+.ver4Food-menor.ui-button .ui-button-text,
+.ver6Food.ui-button .ui-button-text,
+.ver6Food-menor.ui-button .ui-button-text {
+    color: var(--azul-avante);
+    text-align: center;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ver6Food.ui-button .ui-button-text,
+.ver6Food-menor.ui-button .ui-button-text {
+    color: #fff;
+}
+
+.ver5Food.ui-button .ui-button-text {
+    color: var(--verde-agro);
+    text-align: center;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ver4Food.ui-button.ui-button-text-icon-left .ui-icon{
+    margin-top: -14px;
+    left: 37px;
+}
+
+.ver6Food.ui-button.ui-button-text-icon-left .ui-icon {
+    left: 11%;
+    margin-top: -15%;
+}
+/*</editor-fold>*/
+
+/*<editor-fold desc="BTN STATUS   1">*/
+.btn-status-01 .ui-button {
+    background: var(--azul-avante)  !important;
+    border: 1px solid var(--azul-avante) !important;
+    border-radius: 5px !important;
+    height: 36px !important;
+    min-width: 160px!important;
+}
+
+
+
+
+.btn-status-01 .ui-button:not(.voltar):hover {
+    background: #e9e9e9 !important;
+}
+
+
+.btn-status-01 .ui-button-icon-left.ui-icon.ui-c.ui-icon-triangle-1-s {
+    background: none;
+}
+
+.btn-status-01 .ui-button-icon-left.ui-icon.ui-c.ui-icon-triangle-1-s:hover,
+.btn-status-01 .ui-button-icon-left.ui-icon.ui-c.ui-icon-triangle-1-s:focus {
+    background: none;
+}
+
+
+.btn-status-01 .ui-icon-triangle-1-s:before, .btn-status-01 .ui-icon-triangle-1-s:before{
+    font-family: icomoon;
+    content: "\e930" !important;
+    color: white;
+    height: 27px;
+    width: 27px;
+    display: flex;
+    align-items: center;
+    rotate: 90deg;
+    transition: .3s;
+    font-size: 15px;
+}
+
+.btn-status-01 .ui-icon-triangle-1-s:before {
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
+}
+
+.btn-status-01 .ui-button.ui-button-text-icon-right .ui-icon {
+    margin-top: -4px;
+    margin-right: 7px;
+}
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Botoes flutuantes">*/
+
+.btn-flutuante-01 {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    bottom: 1em;
+    right: 27px;
+    background-color: color-mix(in srgb, var(--azul-avante) 25%,white);
+    color: var(--azul-avante);
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: none;
+    z-index: 1000;
+}
+.btn-flutuante-01:hover{
+    color: var(--azul-avante);
+    text-decoration: none;
+}
+.btn-flutuante-01:focus{
+    color: var(--azul-avante);
+    text-decoration: none;
+}
+
+.btn-flutuante-pos {
+    bottom: 3.2em!important;
+    right: 27px!important;
+}
+
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="Commands link">*/
+.ui-commandlink.badge-command-link {
+    background-color: var(--azul-soft);
+    color: #000!important;
+    padding: .9rem 1.5rem ;
+    border-radius: 5px !important;
+}
+
+
+
+
+/*</editor-fold>*/

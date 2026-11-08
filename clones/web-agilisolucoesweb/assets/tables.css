@@ -1,0 +1,3963 @@
+/*.ui-datatable-scrollable-body table thead,.ui-datatable-scrollable-footer{*/
+
+
+/*    display: none!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-header{*/
+
+
+/*    width: 100%;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-header,.ui-datatable-scrollable-header, .ui-datatable-scrollable-body{*/
+
+
+/*    width: 100% !important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable thead {*/
+
+
+/*    visibility: collapse!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable-theadclone{*/
+
+
+/*    visibility: collapse!important;*/
+
+
+/*}*/
+
+.ui-datatable-tablewrapper {
+    width: 100%!important;
+}
+
+
+/*.ui-datatable .ui-datatable-header{*/
+
+
+/*    padding: 0!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body{*/
+
+
+/*    outline: none!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:not(.ui-datatable-scrollable-theadclone ){*/
+
+
+/*    height: 49px!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:not(.ui-datatable-scrollable-theadclone) tr{*/
+
+
+/*    height: 49px!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:not(.ui-datatable-scrollable-theadclone) tr td{*/
+
+
+/*    height: 49px!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:not(.ui-datatable-scrollable-theadclone) tr th span.ui-column-title {*/
+
+
+/*    height: auto !important;*/
+
+
+/*    white-space: nowrap !important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable.table-01-menor .ui-datatable-scrollable-body table thead:first-child tr th span.ui-column-title, .ui-datatable-scrollable.table-01-maior .ui-datatable-scrollable-body table thead:first-child tr th span.ui-column-title {*/
+
+
+/*    height: auto !important;*/
+
+
+/*    white-space: nowrap !important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:first-child{*/
+
+
+/*    height: 49px!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:first-child tr{*/
+
+
+/*    height: 49px!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:first-child tr td{*/
+
+
+/*    height: 49px!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body table thead:first-child tr td .ui-column-title {*/
+
+
+/*    height: auto !important;*/
+
+
+/*    white-space: nowrap !important;*/
+
+
+/*}*/
+
+
+/*body .ui-datatable.ui-datatable-scrollable .ui-datatable-scrollable-header{*/
+
+
+/*    display: none!important;*/
+
+
+/*}*/
+
+
+/*.ui-datatable-scrollable .ui-datatable-scrollable-body .ui-datatable-scrollable-theadclone {*/
+
+
+/*    visibility: visible!important;*/
+
+
+/*}*/
+
+
+/**               TABELA TIPO 1 MAIOR                          **/
+
+.table-01-maior .ui-widget-header {
+    background-color: white!important;
+    border: none;
+}
+
+.table-01-maior {
+    width: 100%;
+    border-collapse: unset!important;
+}
+
+.table-01-maior table {
+    border-collapse: unset!important;
+    table-layout: fixed!important;
+    border: 1px solid var(--cool-grey-2) !important;
+}
+
+
+/*.table-01-maior .ui-datatable-scrollable-body table{*/
+
+
+/* border-top: none!important; */
+
+
+/*}*/
+
+.table-01-maior .ui-selection-column {
+    max-width: 46px!important;
+    min-width: 46px!important;
+    width: 46px!important;
+    text-align: center;
+}
+
+.table-01-maior .ui-selection-column .ui-chkbox {
+    margin: 0!important;
+}
+
+.table-01-maior thead tr td input,
+.table-01-maior thead tr th input {
+    /* display: none!important; */
+    display: block !important;
+    width: 100% !important;
+    background: white no-repeat !important;
+    /* background-image: linear-gradient(to bottom, #1976d2, #1976d2), linear-gradient(to bottom, #bdbdbd, #bdbdbd) !important; */
+    background-size: 0 2px, 100% 1px !important;
+    background-position: 50% 100%, 50% 100% !important;
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1) !important;
+    padding: 2px 2px 0px 2px !important;
+    font-size: 14px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.table-01-maior thead tr td .ui-sortable-column-icon.ui-icon,
+.table-01-maior thead tr th .ui-sortable-column-icon.ui-icon {
+    height: 12px!important;
+    width: 12px!important;
+}
+
+.table-01-maior thead tr td .ui-sortable-column-icon.ui-icon:before,
+.table-01-maior thead tr th .ui-sortable-column-icon.ui-icon:before {
+    font-size: 12px!important;
+    margin: 0!important;
+    margin-left: 0!important;
+}
+
+.table-01-maior thead tr td .ui-sortable-column-icon.ui-icon-triangle-1-s,
+.table-01-maior thead tr th .ui-sortable-column-icon.ui-icon-triangle-1-s {
+    content: ""!important;
+    height: 12px!important;
+    width: 12px!important;
+    display: inline-block!important;
+    background: transparent url("decrescente.svg") no-repeat 0px 0px;
+}
+
+.table-01-maior thead tr td .ui-sortable-column-icon.ui-icon-triangle-1-n,
+.table-01-maior thead tr th .ui-sortable-column-icon.ui-icon-triangle-1-n {
+    content: ""!important;
+    height: 12px!important;
+    width: 12px!important;
+    display: inline-block!important;
+    background: transparent url("crescente.svg") no-repeat 0px 0px;
+}
+
+
+/*.table-01-maior thead tr td,.table-01-maior thead tr th{*/
+
+
+/*    min-width: 44.6px!important;*/
+
+
+/*}*/
+
+.table-01-maior table thead tr td,
+.table-01-maior table thead tr th {
+    font-family: "Roboto";
+    font-weight: bolder;
+    background-color: var(--azul-soft-op-20) !important;
+    text-transform: uppercase;
+    font-size: 12px!important;
+    /*height: 49px!important;*/
+    /*min-width: 44.6px!important;*/
+    vertical-align: top;
+    padding: 15px 10px;
+    white-space: nowrap;
+    /*padding-bottom: 17px!important;*/
+    color: var(--dark-purple)!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.table-01-maior tbody {
+    border: none!important;
+}
+
+
+/* lowercase table */
+
+.table-01-maior tbody tr td:first-child {
+    font-weight: bold!important;
+    text-transform: lowercase !important;
+}
+
+.table-01-maior tbody tr td:first-child:first-line {
+    text-transform: capitalize!important;
+}
+
+.table-01-maior tbody tr td {
+    border: none!important;
+    border-top: 1px solid var(--cool-grey-2)!important;
+    color: var(--dark-purple)!important;
+    font-size: 14px!important;
+    font-weight: normal;
+    height: 49px!important;
+    padding: 0 10px!important;
+    overflow: visible!important;
+    vertical-align: middle;
+}
+
+.table-01-maior tbody tr td .action-button {
+    font-weight: bold!important;
+}
+
+.table-01-maior tbody tr td.action-col {
+    /*overflow: visible!important;*/
+    font-weight: bolder!important;
+    font-family: "Roboto"!important;
+    text-indent: unset!important;
+    line-height: 16px!important;
+    font-size: 14px!important;
+}
+
+.table-01-maior tbody tr {
+    background-color: white!important;
+    cursor: pointer;
+}
+
+.table-01-maior tbody tr:hover {
+    background-color: var(--azul-soft-op-20)!important;
+}
+
+
+/**               TABELA TIPO 1 MENOR                          **/
+
+.table-01-menor .ui-selection-column {
+    max-width: 46px!important;
+    min-width: 46px!important;
+    width: 46px!important;
+    text-align: center;
+}
+
+.table-01-menor .ui-selection-column .ui-chkbox {
+    margin: 0!important;
+}
+
+.table-01-menor .ui-widget-header {
+    background-color: white!important;
+    border: none;
+}
+
+.table-01-menor {
+    width: 100%;
+    border-collapse: unset!important;
+}
+
+.table-01-menor table {
+    border-collapse: unset!important;
+    table-layout: fixed!important;
+    border: 1px solid var(--cool-grey-2) !important;
+}
+
+.table-01-menor tbody {
+    border: none!important;
+}
+
+.table-01-menor thead tr td input,
+.table-01-menor thead tr th input {
+    /* display: none!important; */
+    display: block !important;
+    width: 100% !important;
+    background: white no-repeat !important;
+    /* background-image: linear-gradient(to bottom, #1976d2, #1976d2), linear-gradient(to bottom, #bdbdbd, #bdbdbd) !important; */
+    background-size: 0 2px, 100% 1px !important;
+    background-position: 50% 100%, 50% 100% !important;
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1) !important;
+    padding: 2px 2px 0px 2px !important;
+    font-size: 14px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.table-01-menor thead tr td .ui-sortable-column-icon.ui-icon,
+.table-01-menor thead tr th .ui-sortable-column-icon.ui-icon {
+    height: 12px!important;
+    width: 12px!important;
+}
+
+.ui-datatable thead th .ui-sortable-column-icon.ui-icon-carat-2-n-s {
+    display: none!important;
+}
+
+.table-01-menor thead tr td .ui-sortable-column-icon.ui-icon-triangle-1-s,
+.table-01-menor thead tr th .ui-sortable-column-icon.ui-icon-triangle-1-s {
+    content: ""!important;
+    height: 12px!important;
+    width: 12px!important;
+    display: inline-block!important;
+    background: transparent url("decrescente.svg") no-repeat 0px 0px;
+}
+
+.table-01-menor thead tr td .ui-sortable-column-icon.ui-icon-triangle-1-n,
+.table-01-menor thead tr th .ui-sortable-column-icon.ui-icon-triangle-1-n {
+    content: ""!important;
+    height: 12px!important;
+    width: 12px!important;
+    display: inline-block!important;
+    background: transparent url("crescente.svg") no-repeat 0px 0px;
+}
+
+
+/*.table-01-menor thead tr td,.table-01-menor thead tr th{*/
+
+
+/*    min-width: 44.6px!important;*/
+
+
+/*}*/
+
+.table-01-menor thead tr td,
+.table-01-menor thead tr th {
+    font-family: "Roboto";
+    font-weight: bolder;
+    background-color: var(--azul-soft-op-20) !important;
+    text-transform: uppercase;
+    font-size: 10px!important;
+    /*height: 49px!important;*/
+    padding: 15px 10px;
+    /*min-width: 44.6px!important;*/
+    vertical-align: top;
+    /*padding-bottom: 17px!important;*/
+    color: var(--dark-purple)!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.table-01-menor tbody tr td:first-child {
+    font-weight: bold!important;
+}
+
+.table-01-menor tbody tr td {
+    border: none!important;
+    border-top: 1px solid var(--cool-grey-2)!important;
+    color: var(--dark-purple)!important;
+    font-size: 12px!important;
+    font-weight: normal;
+    height: 49px!important;
+    padding: 0 10px!important;
+    overflow: visible!important;
+    vertical-align: middle;
+}
+
+.table-01-menor tbody tr td .emDestaque {
+    background-color: #b6dcff65!important;
+}
+
+.table-01-menor tbody tr td .action-button {
+    font-weight: bold!important;
+}
+
+.table-01-menor tbody tr td.action-col {
+    /*overflow: visible!important;*/
+    font-weight: bolder!important;
+    font-family: "Roboto"!important;
+    text-indent: unset!important;
+    line-height: 16px!important;
+    font-size: 14px!important;
+}
+
+.table-01-menor tbody tr {
+    background-color: white!important;
+    cursor: pointer;
+}
+
+.table-01-menor tbody tr:hover {
+    background-color: var(--azul-soft-op-20)!important;
+}
+
+
+/* ===================================== Tabela 01 editável========================= */
+
+.table-01-menor tbody tr td .ui-cell-editor-input input {
+    border: none!important;
+    color: var(--dark-purple)!important;
+    background-color: var(--azul-soft)!important;
+    margin: 0!important;
+    height: 30px;
+}
+
+body .ui-state-active,
+body .ui-state-highlight {
+    background-color: transparent;
+}
+
+
+/**               TABELA TIPO 2                          **/
+
+.table-02 {
+    border-collapse: unset!important;
+}
+
+.table-02 .ui-widget-header {
+    background-color: white!important;
+    border: none;
+    /*height: 49px;*/
+}
+
+.table-02 thead tr td input,
+.table-02 thead tr th input {
+    display: none!important;
+}
+
+.table-02 thead tr td,
+.table-02 thead tr th {
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px !important;*/
+    background-color: var(--dark-purple)!important;
+    outline: none!important;
+    color: white!important;
+    border: none!important;
+}
+
+
+/*.table-02 thead tr td,.table-02 thead tr th{*/
+
+
+/*    !*min-width: 44.6px!important;*!*/
+
+
+/*}*/
+
+.table-02 thead tr td span,
+.table-02 thead tr th span {
+    white-space: nowrap;
+}
+
+.table-02 table {
+    width: 99.9%!important;
+}
+
+.table-02 table tbody {
+    /* border: none!important; */
+    padding: 0;
+}
+
+.table-02 tbody tr td {
+    background-color: transparent;
+    color: var(--dark-purple) !important;
+    /* border: none!important; */
+}
+
+.table-02 tbody tr td:first-child {
+    background-color: transparent;
+    color: var(--dark-purple) !important;
+    /* border: none!important; */
+    font-weight: bold;
+}
+
+.table-02 tbody tr:nth-child(odd) {
+    background-color: white!important;
+}
+
+.table-02 tbody tr:nth-child(even) {
+    background-color: var(--cool-grey);
+    border: 1px solid var(--cool-grey-2) !important;
+    border-bottom: none!important;
+}
+
+.table-02 tbody tr td .ui-cell-editor-input {
+    background-color: var(--azul-soft);
+    padding: 0;
+    margin: 0!important;
+}
+
+.table-02 tbody tr td .ui-cell-editor-input input {
+    border: none!important;
+    color: var(--dark-purple)!important;
+    background-color: var(--azul-soft)!important;
+    margin: 0!important;
+    height: 30px;
+}
+
+.table-02 tbody tr {
+    height: 30px;
+}
+
+
+/**               TABELA TIPO 3                          **/
+
+.table-03 {
+    border-collapse: unset!important;
+}
+
+.table-03 .ui-widget-header {
+    background-color: white!important;
+    border: none;
+    height: 49px;
+}
+
+.table-03 thead {
+    height: 34px;
+}
+
+.table-03 thead tr td input,
+.table-03 thead tr th input {
+    display: none!important;
+}
+
+.table-03 thead tr td,
+.table-03 thead tr th {
+    padding-top: 13px!important;
+    background-color: #ffffff!important;
+    outline: none!important;
+    font-size: 11px!important;
+    color: var(--dark-purple) !important;
+    border: none!important;
+}
+
+.table-03 thead tr td,
+.table-03 thead tr th {
+    min-width: 44.6px!important;
+}
+
+.table-03 thead tr td span,
+.table-03 thead tr th span {
+    white-space: nowrap;
+}
+
+.table-03 table {
+    width: 99.9%!important;
+}
+
+.table-03 table tbody {
+    border: none!important;
+    padding: 0;
+}
+
+.table-03 tbody tr:first-child td {
+    padding-top: 10px!important;
+}
+
+.table-03 tbody tr:first-child {
+    height: 35px!important;
+    padding-top: 10px!important;
+}
+
+.table-03 tbody tr td {
+    background-color: transparent;
+    height: 25px!important;
+    color: var(--dark-purple) !important;
+    font-size: 12px!important;
+    border: none!important;
+    padding: 0!important;
+    overflow: visible;
+}
+
+.table-03 tbody tr:nth-child(odd) {
+    background-color: white!important;
+}
+
+.table-03 tbody tr:nth-child(even) {
+    background-color: white!important;
+}
+
+.table-03 tbody tr td .ui-cell-editor-input {
+    background-color: var(--azul-soft);
+    padding: 0;
+    margin: 0!important;
+}
+
+.table-03 tbody tr td .ui-cell-editor-input input {
+    border: none!important;
+    color: var(--dark-purple)!important;
+    background-color: var(--azul-soft)!important;
+    margin: 0!important;
+    height: 25px;
+}
+
+.table-03 tbody tr {
+    height: 25px;
+    border-bottom: 1px solid var(--cool-grey-2) !important;
+}
+
+.table-03 .ui-datatable-summaryrow {
+    height: 35px;
+    padding-top: 10px!important;
+    border-bottom: 1px solid var(--cool-grey-2) !important;
+}
+
+.table-03 .ui-datatable-summaryrow td {
+    padding-top: 10px!important;
+    font-weight: bold!important;
+    color: var(--dark-purple) !important;
+}
+
+.table-03.ui-datatable tfoot td{
+    padding-top: 10px!important;
+    font-weight: bold!important;
+    color: var(--dark-purple) !important;
+    border: none;
+    border-bottom: 1px solid var(--cool-grey-2) ;
+}
+
+
+/**               TABELA TIPO 3                          **/
+
+/**               TABELA TIPO 4                          **/
+
+.table-04 {
+    border-collapse: unset!important;
+}
+
+.table-04 .ui-widget-header {
+    background-color: white!important;
+    border: none;
+    height: 49px;
+}
+
+.table-04 thead {
+    height: 34px;
+}
+
+.table-04 thead tr td input,
+.table-04 thead tr th input {
+    display: none!important;
+}
+
+.table-04 thead tr td,
+.table-04 thead tr th {
+    padding-top: 13px!important;
+    background-color: #ffffff!important;
+    outline: none!important;
+    font-size: 10px!important;
+    color: var(--dark-purple) !important;
+    border: none!important;
+}
+
+.table-04 thead tr td,
+.table-04 thead tr th {
+    min-width: 44.6px!important;
+}
+
+.table-04 thead tr td span,
+.table-04 thead tr th span {
+    white-space: nowrap;
+}
+
+.table-04 table {
+    width: 99.9%!important;
+}
+
+.table-04 table tbody {
+    border: none!important;
+    padding: 0;
+}
+
+.table-04 tbody tr:first-child td {
+    padding-top: 10px!important;
+}
+
+.table-04 tbody tr:first-child {
+    height: 35px!important;
+    padding-top: 10px!important;
+}
+
+.table-04 tbody tr td {
+    background-color: transparent;
+    height: 25px!important;
+    color: var(--dark-purple) !important;
+    font-size: 11px!important;
+    border: none!important;
+    padding: 0!important;
+    overflow: visible;
+}
+
+.table-04 tbody tr:nth-child(odd) {
+    background-color: white!important;
+}
+
+.table-04 tbody tr:nth-child(even) {
+    background-color: white!important;
+}
+
+.table-04 tbody tr td .ui-cell-editor-input {
+    background-color: var(--azul-soft);
+    padding: 0;
+    margin: 0!important;
+}
+
+.table-04 tbody tr td .ui-cell-editor-input input {
+    border: none!important;
+    color: var(--dark-purple)!important;
+    background-color: var(--azul-soft)!important;
+    margin: 0!important;
+    height: 25px;
+}
+
+.table-04 tbody tr {
+    height: 25px;
+    border-bottom: 1px solid var(--cool-grey-2) !important;
+}
+
+.table-04 .ui-datatable-summaryrow {
+    height: 35px;
+    padding-top: 10px!important;
+    border-bottom: 1px solid var(--cool-grey-2) !important;
+}
+
+.table-04 .ui-datatable-summaryrow td {
+    padding-top: 10px!important;
+    font-weight: bold!important;
+    color: var(--dark-purple) !important;
+}
+
+.table-04.ui-datatable tfoot td{
+    padding-top: 10px!important;
+    font-weight: bold!important;
+    color: var(--dark-purple) !important;
+    border: none;
+    border-bottom: 1px solid var(--cool-grey-2) ;
+}
+
+
+/**               TABELA TIPO 4                          **/
+
+.table-frente {
+    border-collapse: unset!important;
+}
+
+.table-frente table {
+    table-layout: auto!important;
+}
+
+.table-frente .ui-widget-header {
+    background-color: white!important;
+    border: none;
+    height: fit-content!important;
+}
+
+.table-frente thead {
+    height: 34px;
+}
+
+.table-frente thead tr td input,
+.table-frente thead tr th input {
+    display: none!important;
+}
+
+.table-frente thead tr td,
+.table-frente thead tr th {
+    padding-top: 13px!important;
+    outline: none!important;
+    font-size: 11px!important;
+    color: var(--dark-purple) !important;
+    border: none!important;
+}
+
+.table-frente thead tr td,
+.table-frente thead tr th {
+    min-width: 44.6px!important;
+}
+
+.table-frente thead tr td span,
+.table-frente thead tr th span {
+    white-space: nowrap;
+}
+
+.table-frente table {
+    width: 99.9%!important;
+}
+
+.table-frente table tbody {
+    border: none!important;
+    padding: 0;
+}
+
+.table-frente tbody tr:nth-child(odd) td {
+    background-color: var(--cool-grey) !important;
+}
+
+.table-frente tbody tr td {
+    background-color: transparent;
+    height: 25px!important;
+    color: var(--dark-purple) !important;
+    font-size: 12px!important;
+    border: none!important;
+    padding: 0!important;
+}
+
+.table-frente tbody tr:nth-child(even) {
+    background-color: white!important;
+}
+
+.table-frente tbody tr {
+    height: auto;
+}
+
+.table-frente .ui-datatable-summaryrow {
+    height: 35px;
+    padding-top: 10px!important;
+}
+
+.table-frente .ui-datatable-summaryrow td {
+    padding-top: 10px!important;
+    font-weight: bold!important;
+    color: var(--dark-purple) !important;
+}
+
+
+/**             Botões de ação da Tabela               **/
+
+.action-button-contador .ui-button .ripple-animate {
+    display: none!important;
+}
+
+.action-button-contador .ui-button {
+    outline: none!important;
+}
+
+.action-button-contador {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    /* width: 40px!important; */
+}
+
+.action-button-contador .ui-button.ui-button-text-icon-left {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.action-button-contador,
+.action-button-contador .ui-button {
+    display: flex;
+    justify-content: center !important;
+    min-width: unset!important;
+    /* width: 40px!important; */
+    /* height: 40px!important; */
+    /* background-color: transparent!important; */
+    /*overflow: visible!important;*/
+    /* margin: 0!important; */
+    margin: auto !important;
+    position: relative;
+    /* padding: 0!important; */
+    /* margin-right: 0!important; */
+}
+
+.action-button-contador .action-icon,
+.action-button-contador .ui-button .ui-icon {
+    display: block;
+    position: absolute;
+    /* width: 40px!important; */
+    /* height: 40px!important; */
+}
+
+.action-button-contador .ui-button .ui-icon {
+    /* margin-top: 0!important; */
+    /* top:0!important; */
+    /* left: 0; */
+    display: none;
+}
+
+.table-03 thead tr td .ui-sortable-column-icon.ui-icon,
+.table-03 thead tr th .ui-sortable-column-icon.ui-icon {
+    height: 12px!important;
+    width: 12px!important;
+}
+
+.ui-datatable thead th .ui-sortable-column-icon.ui-icon-carat-2-n-s {
+    display: none!important;
+}
+
+.table-03 thead tr td .ui-sortable-column-icon.ui-icon-triangle-1-s,
+.table-03 thead tr th .ui-sortable-column-icon.ui-icon-triangle-1-s {
+    content: ""!important;
+    height: 12px!important;
+    width: 12px!important;
+    display: inline-block!important;
+    background: transparent url("decrescente.svg") no-repeat 0px 0px;
+}
+
+.table-03 thead tr td .ui-sortable-column-icon.ui-icon-triangle-1-n,
+.table-03 thead tr th .ui-sortable-column-icon.ui-icon-triangle-1-n {
+    content: ""!important;
+    height: 12px!important;
+    width: 12px!important;
+    display: inline-block!important;
+    background: transparent url("crescente.svg") no-repeat 0px 0px;
+}
+
+.action-button-contador .ui-button {
+    background-color: var(--cool-grey-3) !important;
+}
+
+.action-button-contador .ui-button:hover {
+    background-color: var(--avante-purple) !important;
+}
+
+
+/* ============================================= */
+
+.form-select-table {
+    -webkit-box-sizing: inherit!important;
+    background-image: none!important;
+    -moz-box-sizing: inherit!important;
+    background: white no-repeat !important;
+    box-sizing: inherit!important;
+    height: 25px;
+    width: 85% !important;
+    font-size: 14px !important;
+    -moz-border-radius: 5px !important;
+    border: 1.25px solid lightgray !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.secao .ui-column-customfilter {
+    padding: 5px 2px 0px 2px !important;
+}
+
+.form-select-table .ui-selectonemenu-label.ui-inputfield.ui-corner-all {
+    line-height: 23px;
+    height: 100%;
+    font-family: "Roboto", "Helvetica Neue", sans-serif !important;
+    color: #5A5A5A !important;
+    text-decoration: none;
+}
+
+.action-button,
+.action-button .ui-button {
+    display: flex;
+    justify-content: center;
+    min-width: 40px!important;
+    background-color: transparent!important;
+    /*overflow: visible!important;*/
+    margin: 0!important;
+    position: relative;
+    padding: 0!important;
+    margin-right: 0!important;
+}
+
+.card .action-button,
+.card .action-button .ui-button {
+    overflow: visible!important;
+}
+
+.action-button .ui-button .ripple-animate {
+    display: none!important;
+}
+
+.action-button {
+    /*margin-left: auto!important;
+    margin-right: auto!important;
+    width: 40px!important;
+    height: 25px !important;*/
+}
+
+.action-button .ui-button {
+    outline: none!important;
+    background-color: transparent !important;
+}
+
+.action-button .ui-button.ui-widget:hover {
+    background-color: transparent!important;
+}
+
+.action-button .ui-button.ui-widget:focus {
+    background-color: transparent!important;
+}
+
+.action-button .action-icon,
+.action-button .ui-button .ui-icon {
+    display: block;
+    position: absolute;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+.action-button .ui-button .ui-icon {
+    margin-top: 0!important;
+    top: 0!important;
+    left: 0;
+}
+
+.card .action-button .ui-button .ui-icon {
+    margin-top: -10px!important;
+    top: 0!important;
+    left: 0;
+}
+
+.action-button .action-tooltip,
+.action-button .ui-button-text {
+    display: none!important;
+    color: white!important;
+}
+
+.action-button:hover .action-tooltip,
+.action-button:hover .ui-button-text {
+    height: 25px!important;
+    display: flex!important;
+    align-items: center;
+    background-color: var(--dark-purple);
+    padding: 0 15px!important;
+    border-radius: 3px!important;
+    right: calc(100% + 5px)!important;
+    position: absolute;
+    font-weight: bold;
+    white-space: nowrap!important;
+    min-width: fit-content!important;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.action-button:hover .action-tooltip:before,
+.action-button:hover .ui-button-text:before {
+    content: "" !important;
+    display: block!important;
+    border-radius: 3px!important;
+    padding: 1px;
+    right: -5.5px!important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 8px solid var(--dark-purple);
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.action-menu {
+    border: 1px solid var(--dark-purple)!important;
+    -webkit-box-shadow: 0px 10px 7px 0px var(--dark-purple-op-15) !important;
+    -moz-box-shadow: 0px 10px 7px 0px var(--dark-purple-op-15) !important;
+    box-shadow: 0px 10px 7px 0px var(--dark-purple-op-15) !important;
+    border-radius: 3px!important;
+}
+
+.action-menu .ui-menu-list li.ui-menuitem .ui-menuitem-link {
+    color: var(--dark-purple)!important;
+}
+
+.action-menu .ui-menu-list li.ui-menuitem .ui-menuitem-link:hover {
+    background-color: var(--cool-grey);
+}
+
+.action-menu .ui-menu-list li.ui-menuitem .ui-menuitem-link .ui-menuitem-icon {
+    color: var(--dark-purple)!important;
+}
+
+.layout-editar {
+    background: transparent url("editar.svg") no-repeat 0px 0px;
+}
+
+.layout-checkbox {
+    background: transparent url("checkbox.svg") no-repeat 0px 0px;
+}
+
+.layout-checkbox-selected-blue {
+    background: transparent url("checkbox-selected-blue.svg") no-repeat 0px 0px;
+}
+
+.layout-plus {
+    background: transparent url("form-plus.svg") no-repeat 0px 0px;
+}
+
+.layout-crescente {
+    background: transparent url("crescente.svg") no-repeat 0px 0px;
+}
+
+.layout-plus-verde {
+    background: transparent url("form-plus-verde.svg") no-repeat 0px 0px;
+}
+.layout-plus-preto {
+    background: transparent url("form-plus-preto.svg") no-repeat 0px 0px;
+}
+
+.layout-imprimir {
+    background: transparent url("imprimir.svg") no-repeat 0px 0px;
+}
+
+.layout-info {
+    background: transparent url("info.svg") no-repeat 0px 0px;
+}
+
+.layout-excluir {
+    background: transparent url("excluir.svg") no-repeat 0px 0px;
+}
+
+.layout-excluir:hover {
+    background: transparent url("excluir-mouseup.svg") no-repeat 0px 0px;
+}
+
+.layout-xml {
+    background: transparent url("xml.svg") no-repeat 0px 0px;
+}
+.layout-xml-verde {
+    background: transparent url("xml-verde.svg") no-repeat 0px 0px;
+}
+
+.layout-email {
+    /*background:transparent url(../images/table-icons/.svg.xhtml) no-repeat 0px 0px;*/
+}
+
+.layout-resumo {
+    background: transparent url("resumo.svg") no-repeat 0px 0px;
+}
+
+.layout-dowload {
+    background: transparent url("table-download.svg") no-repeat 0px 0px;
+}
+
+.layout-action {
+    background: transparent url("action.svg") no-repeat 0px 0px;
+}
+
+
+.ui-button-icon-left.ui-icon.ui-c.ui-icon-triangle-1-s {
+    background: transparent url("action.svg") no-repeat 0px 0px;
+}
+
+.ui-button-icon-left.ui-icon.ui-c.ui-icon-triangle-1-s:hover,
+.ui-button-icon-left.ui-icon.ui-c.ui-icon-triangle-1-s:focus {
+    background: transparent url("action-mouseup.svg") no-repeat 0px 0px;
+}
+
+.layout-action:hover,
+.layout-action:focus {
+    background: transparent url("action-mouseup.svg") no-repeat 0px 0px;
+}
+
+.badge-em-aberto {
+    content: "" !important;
+    width: 80px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent url("tag-em-aberto.svg") no-repeat 0px 0px;
+}
+
+.badge-publicado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-publicado:after {
+    color: white;
+    font-size: 12px;
+    content: "Publicado" !important;
+}
+
+.badge-nao-publicado {
+    width: 120px;
+    height: 17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-nao-publicado:after {
+    color: white;
+    content: "Não Publicado" !important;
+}
+
+.badge-pausado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-pausado:after {
+    color: white;
+    font-size: 12px;
+    content: "Pausado" !important;
+}
+
+.badge-encerrado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-encerrado:after {
+    color: white;
+    font-size: 12px;
+    content: "Encerrado" !important;
+}
+
+.status-badge {
+    display: inline-block;
+    min-width: 110px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.status-success {
+    background: #e8f7ee;
+    color: #1f8f4e;
+}
+
+.status-warning {
+    background: #fff4df;
+    color: #b7791f;
+}
+
+.status-danger {
+    background: #fdeaea;
+    color: #c53030;
+}
+
+.status-neutral {
+    background: #eef2f6;
+    color: #4a5568;
+}
+
+.badge-autorizado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-autorizado:after {
+    color: white;
+    font-size: 12px;
+    content: "Autorizado" !important;
+}
+
+.badge-processando {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-mentora2);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-processando:after {
+    color: white;
+    font-size: 12px;
+    content: "Em Processo" !important;
+}
+
+.badge-EMITIDO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    align-content: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+}
+
+.badge-EMITIDO:after {
+    color: white;
+    font-size: 12px;
+    content: "Emitido" !important;
+}
+
+
+.badge-FALHA {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    align-content: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--vermelho-food);
+    border-radius: 20px;
+}
+
+.badge-FALHA:after {
+    color: white;
+    font-size: 12px;
+    content: "Falha" !important;
+}
+
+
+
+.badge-REJEITADO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.badge-REJEITADO:after {
+    color: white;
+    font-size: 12px;
+    content: "Rejeitado" !important;
+}
+.badge-rejeitada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.badge-rejeitada:after {
+    color: white;
+    font-size: 12px;
+    content: "Rejeitada" !important;
+}
+.badge-SALVO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--amber);
+    border-radius: 20px;
+}
+
+.badge-SALVO:after {
+    color: white;
+    font-size: 12px;
+    content: "Salvo" !important;
+}
+
+
+.badge-REGISTRADO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+}
+
+.badge-REGISTRADO:after {
+    color: white;
+    font-size: 12px;
+    content: "Registrado" !important;
+}
+
+.badge-GERADO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+}
+
+.badge-GERADO:after {
+    color: white;
+    font-size: 12px;
+    content: "Gerado" !important;
+}
+
+.badge-LIQUIDADO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+}
+
+.badge-LIQUIDADO:after {
+    color: white;
+    font-size: 12px;
+    content: "Liquidado" !important;
+}
+
+.badge-CANCELADO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+}
+
+.badge-CANCELADO:after {
+    color: white;
+    font-size: 12px;
+    content: "Cancelado" !important;
+}
+
+
+.badge-BAIXADO {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+}
+
+.badge-BAIXADO:after {
+    color: white;
+    font-size: 12px;
+    content: "Baixado" !important;
+}
+
+.badge-autorizada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-autorizada:after {
+    color: white;
+    font-size: 12px;
+    content: "Autorizada" !important;
+}
+
+.badge-autorizadaOS {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-autorizadaOS:after {
+    color: white;
+    font-size: 12px;
+    content: "Autorizada" !important;
+}
+
+
+.badge-garantiaFabrica {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4a526b;
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-garantiaFabrica:after {
+    color: white;
+    font-size: 12px;
+    content: "Garan..." !important;
+}
+.badge-garantiaFabrica:hover:after {
+    color: white;
+    font-size: 12px;
+    content: "Garantia Fábrica" !important;
+}
+
+.badge-garantiaFabrica:hover{
+    height: 28px;
+
+}
+
+
+.badge-garantiaEstendida {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #07a0e9;
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-garantiaEstendida:after {
+    color: white;
+    font-size: 12px;
+    content: "Garan..." !important;
+}
+
+.badge-garantiaEstendida:hover{
+    width: 104px;
+
+}
+.badge-garantiaEstendida:hover:after{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    content: "Garantia Estendida" !important;
+
+}
+
+
+.badge-orcamentoOs {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5b1a4;
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-orcamentoOs:after {
+    color: white;
+    font-size: 12px;
+    content: "Orçamento" !important;
+}
+
+
+.badge-emProcesso {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-emProcesso:after {
+    color: white;
+    font-size: 12px;
+    content: "Em processo" !important;
+}
+
+.badge-aberto {
+    /*width: 75px;*/
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-aberto:after {
+    color: white;
+    font-size: 12px;
+    content: "Em Aberto" !important;
+}
+
+.badge-pendente {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+.badge-pendente:after {
+    color: white;
+    font-size: 12px;
+    content: "Pendente" !important;
+}
+
+.badge-enviada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+.badge-enviada:after {
+    color: white;
+    font-size: 12px;
+    content: "Enviada" !important;
+}
+
+.badge-enviado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+}
+
+.badge-enviado:after {
+    color: white;
+    font-size: 12px;
+    content: "Enviado" !important;
+}
+
+.badge-adicionado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+}
+
+.badge-adicionado:after {
+    color: white;
+    font-size: 12px;
+    content: "Adicionado" !important;
+}
+
+.badge-alterado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+.badge-alterado:after {
+    color: white;
+    font-size: 12px;
+    content: "Alterado" !important;
+}
+
+.badge-manual {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+.badge-manual:after {
+    color: white;
+    font-size: 12px;
+    content: "Manual" !important;
+}
+
+.badge-cotacao {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+.badge-cotacao:after {
+    color: white;
+    font-size: 12px;
+    content: "Cotação" !important;
+}
+
+.badge-separacao {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-separacao:after {
+    color: white;
+    font-size: 12px;
+    content: "Em Separação" !important;
+}
+
+.badge-naoAprovado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-naoAprovado:after {
+    color: white;
+    font-size: 12px;
+    content: "Reprovado" !important;
+}
+
+.badge-entregue {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-entregue:after {
+    color: white;
+    font-size: 12px;
+    content: "Entregue" !important;
+}
+
+.badge-transporte {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-transporte:after {
+    color: white;
+    font-size: 12px;
+    content: "Em Transporte" !important;
+}
+
+.badge-finalizado {
+    /*width: 75px;*/
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-finalizado:after {
+    color: white;
+    font-size: 12px;
+    content: "Finalizado" !important;
+}
+
+.badge-fechado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-fechado:after {
+    color: white;
+    font-size: 12px;
+    content: "Finalizado" !important;
+}
+
+.badge-finalizada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-finalizada:after {
+    color: white;
+    font-size: 12px;
+    content: "Finalizada" !important;
+}
+
+.badge-fechada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-fechada:after {
+    color: white;
+    font-size: 12px;
+    content: "Finalizada" !important;
+}
+
+.badge-faturado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-faturado:after {
+    color: white;
+    font-size: 12px;
+    content: "Faturado" !important;
+}
+
+.badge-encerrado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-encerrado:after {
+    color: white;
+    font-size: 12px;
+    content: "Encerrado" !important;
+}
+
+.badge-contigencia {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-contigencia:after {
+    color: white;
+    font-size: 12px;
+    content: "Contingência" !important;
+}
+
+.badge-denegado {
+    width: 95px;
+    height: 17px!important;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-denegado:after {
+    color: white;
+    font-size: 12px !important;
+    content: "Não Autorizado" !important;
+}
+
+.badge-denegada {
+    width: 95px;
+    height: 17px!important;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-denegada:after {
+    color: white;
+    font-size: 12px !important;
+    content: "Não Autorizada" !important;
+}
+
+.badge-aguardando {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+}
+
+.badge-aguardando:after {
+    color: white;
+    font-size: 12px;
+    content: "Cozinha" !important;
+}
+
+.badge-pronto {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+}
+
+.badge-pronto:after {
+    color: white;
+    font-size: 12px;
+    content: "Pronto" !important;
+}
+
+.badge-entregue {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+}
+
+.badge-entregue:after {
+    color: white;
+    font-size: 12px;
+    content: "Entregue" !important;
+}
+
+.badge-inutilizada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+}
+
+.badge-inutilizada:after {
+    color: white;
+    font-size: 12px;
+    content: "Inutilizada" !important;
+}
+
+.badge-denegada2 {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-denegada2:after {
+    color: white;
+    font-size: 12px;
+    content: "Denegada" !important;
+}
+
+.badge-epec {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-epec:after {
+    color: white;
+    font-size: 12px;
+    content: "EPEC" !important;
+}
+
+.badge-denegada3 {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+}
+
+.badge-denegada3:after {
+    color: white;
+    font-size: 12px;
+    content: "Denegado" !important;
+}
+
+.badge-contigenciaNaoEnviada {
+    width: 150px;
+    height: 20px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-contigenciaNaoEnviada:after {
+    color: white;
+    font-size: 12px;
+    content: "Contingência Não Enviada" !important;
+}
+
+
+.badge-contigenciaNaoEnviadaResumida {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-contigenciaNaoEnviadaResumida:after {
+    color: white;
+    font-size: 12px;
+    content: "Contingência..." !important;
+}
+.badge-contigenciaNaoEnviadaResumida:hover:after {
+    color: white;
+    font-size: 12px;
+    content: "Contingência Não Enviada" !important;
+}
+
+.badge-contigenciaNaoEnviadaResumida:hover{
+    width: 95px;
+    height: 34px;
+
+}
+
+.badge-loteEmProcessamento {
+    width: 95px;
+    padding: 0px 5px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-loteEmProcessamento:after {
+    color: white;
+    font-size: 12px;
+    content: "Lote ainda em processamento" !important;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.badge-loteEmProcessamento:hover {
+    height: 28px;
+    padding: 0px;
+}
+
+.badge-loteEmProcessamento:hover:after {
+    text-wrap: unset;
+    overflow: visible;
+}
+
+.badge-cancelamentoEmProcessamento {
+    width: 95px;
+    padding: 0px 5px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--avante-purple);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-cancelmentoEmProcessamento:after {
+    color: white;
+    font-size: 12px;
+    content: "Cancelando" !important;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.badge-cancelamentoEmProcessamento:hover {
+    height: 28px;
+    padding: 0px;
+}
+
+.badge-cancelamentoEmProcessamento:hover:after {
+    text-wrap: unset;
+    overflow: visible;
+}
+
+.badge-agendada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--lilas-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-agendada:after {
+    color: white;
+    font-size: 12px;
+    content: "Agendada/Pendente" !important;
+}
+
+.badge-interrompida {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--lilas-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-interrompida:after {
+    color: white;
+    font-size: 12px;
+    content: "Interrompida" !important;
+}
+
+.badge-cancelado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-cancelado:after {
+    color: white;
+    font-size: 12px;
+    content: "Cancelado" !important;
+}
+
+.badge-personalizado {
+    width: 95px;
+    height: 17px;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--lilas-avante);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-personalizado-grande {
+    width: 95px;
+    height: 17px;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--lilas-avante);
+    border-radius: 20px;
+    color: white;
+}
+
+.badge-personalizado-grande:hover{
+    
+    height: 28px;
+}
+
+.badge-personalizado:after {
+    color: white;
+    font-size: 12px;
+}
+
+
+.badge-personalizado:hover:after {
+    color: white;
+    font-size: 12px;
+}
+
+.badge-personalizado:hover{
+    width: 95px;
+}
+
+
+.badge-personalizado-grande:after {
+    color: white;
+    font-size: 12px;
+}
+
+
+.badge-personalizado-grande:hover:after {
+    color: white;
+    font-size: 12px;
+}
+
+.badge-personalizado-grande:hover{
+    width: 95px;
+}
+
+.texto-personalizado{
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    padding: 00px 5px;
+}
+
+.badge-personalizado-grande:hover .texto-personalizado{
+    overflow: visible;
+    text-wrap: unset;
+}
+
+.badge-personalizado:hover .texto-personalizado{
+    overflow: visible;
+    text-wrap: unset;
+}
+
+.badge-canceladaOS {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-canceladaOS:after {
+    color: white;
+    font-size: 12px;
+    content: "Cancelada" !important;
+}
+
+.badge-cancelada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-cancelada:after {
+    color: white;
+    font-size: 12px;
+    content: "Cancelada" !important;
+}
+
+.badge-substituida {
+    width: 95px;
+    height: 17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.badge-substituida:after {
+    color: white;
+    content: "Substituída" !important;
+}
+
+.badge-renegociada {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-renegociada:after {
+    color: white;
+    font-size: 12px;
+    content: "Renegociada" !important;
+}
+
+.badge-credito {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-credito:after {
+    color: white;
+    font-size: 12px;
+    content: "Crédito" !important;
+}
+
+.badge-debito {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-debito:after {
+    color: white;
+    font-size: 12px;
+    content: "Débito" !important;
+}
+
+.badge-pago {
+    width: 75px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-pago:after {
+    color: white;
+    font-size: 12px;
+    content: "Pago" !important;
+}
+
+.badge-vencido {
+    width: 75px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--azul-avante);
+    border-radius: 20px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-vencido:after {
+    color: white;
+    font-size: 12px;
+    content: "Vencido" !important;
+}
+
+
+.badge-pagoConciliado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 17px;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    color: white;
+}
+
+.badge-pagoConciliado:hover{
+    height: 28px;
+}
+.badge-pagoConciliado:after {
+    color: white;
+    font-size: 12px;
+    content: "Pago/Con" !important;
+}
+
+
+.badge-pagoConciliado:hover:after {
+    color: white;
+    font-size: 12px;
+    overflow: visible;
+    text-wrap: unset;
+    content: "Pago/Conciliado" !important;
+}
+
+.badge-pagoConciliado:hover{
+    width: 95px;
+}
+
+.badge-C {
+    content: "" !important;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent url("credito.svg") no-repeat 0px 0px;
+}
+
+.badge-sim {
+    display: block;
+    width: fit-content;
+    padding: 0 5px!important;
+    height: 15px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    margin-left: auto;
+    font-size: 12px!important;
+    color: white;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+}
+
+.badge-nao {
+    display: block;
+    width: fit-content;
+    height: 15px;
+    padding: 0 5px!important;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    margin-left: auto;
+    color: white!important;
+    margin-right: auto;
+    font-size: 12px!important;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+}
+
+.badge-D {
+    margin-left: auto;
+    margin-right: auto;
+    content: "" !important;
+    width: 18px;
+    height: 18px;
+    background: transparent url("debito.svg") no-repeat 0px 0px;
+}
+
+
+/**             Botões do cabeçalho da Tabela               **/
+
+.table-button {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--avante-purple);
+}
+
+.table-button:hover {
+    color: var(--azul-avante);
+    text-decoration: underline;
+}
+
+.generateXls {
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.generateXls:after {
+    content: "Baixar arquivo xls da tabela";
+}
+
+.generateXls img {
+    width: 40px;
+    height: 40px;
+}
+
+.generateXls2 {
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.generateXls2:after {
+    content: "";
+}
+
+.generateXls2 img {
+    width: 40px;
+    height: 40px;
+}
+
+.download-table {
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.download-table:after {
+    content: "Download";
+}
+
+.download-table img {
+    width: 40px;
+    height: 20px;
+}
+
+.importar-table {
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.importar-table:after{ 
+    content: "Importar" !important; 
+} 
+
+.importar-table img {
+    width: 40px;
+    height: 20px;
+}
+
+.importarXml-table {
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.importarXml-table:after{ 
+    content: "Importar XML" !important; 
+} 
+
+.importarXml-table img {
+    width: 40px;
+    height: 20px;
+}
+
+
+/**              SCROLL Das TAbelas                       **/
+
+.table-02 ::-webkit-scrollbar,
+.table-01-menor ::-webkit-scrollbar,
+.table-01-maior ::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px!important;
+}
+
+.table-02 ::-webkit-scrollbar-track,
+.table-01-menor ::-webkit-scrollbar-track,
+.table-01-maior ::-webkit-scrollbar-track {
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 10px !important;
+    border-radius: 10px !important;
+}
+
+.table-02 ::-webkit-scrollbar-thumb,
+.table-01-menor ::-webkit-scrollbar-thumb,
+.table-01-maior ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px !important;
+    border-radius: 10px !important;
+    background: var(--cool-grey-3) !important;
+    -webkit-box-shadow: none!important;
+}
+
+.table-01-menor.ui-datatable tfoot td{
+    padding-top: 10px!important;
+    font-weight: bold!important;
+    color: var(--dark-purple) !important;
+    border: none;
+    border-bottom: 1px solid var(--cool-grey-2) ;
+}
+
+
+/**             Paginação                        **/
+
+body .ui-datatable .ui-paginator {
+    margin-top: 10px;
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content!important;
+    height: 35px!important;
+    padding: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    border: 1px solid var(--dark-purple)!important;
+    border-radius: 4px!important;
+    background-color: white!important;
+}
+
+body .ui-datatable .ui-paginator .ui-paginator-pages a {
+    height: 100%;
+    display: inline-flex;
+    width: 35px!important;
+    align-items: center;
+    justify-content: center;
+    margin: 0!important;
+}
+
+body .ui-datatable .ui-paginator .ui-paginator-pages {
+    height: 100%;
+    margin: 0!important;
+    width: auto!important;
+}
+
+body .ui-datatable .ui-paginator .ui-paginator-first,
+body .ui-paginator .ui-paginator-last {
+    display: none!important;
+}
+
+body .ui-datatable .ui-paginator .ui-paginator-prev {
+    border-right: 1px solid var(--dark-purple) !important;
+}
+
+body .ui-datatable .ui-paginator .ui-paginator-prev,
+body .ui-paginator .ui-paginator-next {
+    height: 100%;
+    margin: 0!important;
+    width: 82px!important;
+}
+
+body .ui-datatable .ui-paginator a {
+    height: 100%;
+    position: relative!important;
+}
+
+body .ui-datatable .ui-paginator a:not([class*=ui-paginator-next]):not([class*=ui-paginator-pages]):not([class*=ui-paginator-prev]) {
+    border-right: 1px solid var(--dark-purple) !important;
+}
+
+body .ui-paginator .ui-paginator-prev:before {
+    content: "anterior" !important;
+    text-transform: capitalize!important;
+    font-family: "Roboto";
+    font-size: 16px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+body .ui-paginator .ui-paginator-next:before {
+    content: "próxima" !important;
+    text-transform: capitalize!important;
+    font-family: "Roboto";
+    font-size: 16px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.ui-paginator .ui-paginator-pages {
+    width: 35px!important;
+}
+
+.ui-paginator .ui-state-default {
+    border: none!important;
+    background-color: white!important;
+    color: var(--avante-purple)!important;
+    border-radius: unset!important;
+}
+
+.ui-paginator .ui-state-active {
+    background-color: var(--avante-purple) !important;
+    color: white!important;
+    border-radius: unset!important;
+}
+
+.ui-paginator .ui-state-hover {
+    background-color: var(--avante-purple) !important;
+    color: white!important;
+}
+
+.ui-paginator .ui-state-disabled {
+    color: var(--cool-grey-3)!important;
+}
+
+/**             Paginação datagrid                       **/
+
+body .ui-datagrid .ui-paginator {
+    margin-top: 10px;
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content!important;
+    height: 35px!important;
+    padding: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    border: 1px solid var(--dark-purple)!important;
+    border-radius: 4px!important;
+    background-color: white!important;
+}
+
+body .ui-datagrid .ui-paginator .ui-paginator-pages a {
+    height: 100%;
+    display: inline-flex;
+    width: 35px!important;
+    align-items: center;
+    justify-content: center;
+    margin: 0!important;
+}
+
+body .ui-datagrid .ui-paginator .ui-paginator-pages {
+    height: 100%;
+    margin: 0!important;
+    width: auto!important;
+}
+
+body .ui-datagrid .ui-paginator .ui-paginator-first,
+body .ui-paginator .ui-paginator-last {
+    display: none!important;
+}
+
+body .ui-datagrid .ui-paginator .ui-paginator-prev {
+    border-right: 1px solid var(--dark-purple) !important;
+}
+
+body .ui-datagrid .ui-paginator .ui-paginator-prev,
+body .ui-paginator .ui-paginator-next {
+    height: 100% !important;
+    margin: 0!important;
+    width: 82px!important;
+}
+
+body .ui-datagrid .ui-paginator a {
+    height: 100%;
+    position: relative!important;
+}
+
+body .ui-datagrid .ui-paginator a:not([class*=ui-paginator-next]):not([class*=ui-paginator-pages]):not([class*=ui-paginator-prev]) {
+    border-right: 1px solid var(--dark-purple) !important;
+}
+
+@media (max-width: 576px) {
+    .generateXls:after {
+        content: "Baixar Xls";
+    }
+    .table-02 .ui-widget-header,
+    .table-01-maior .ui-widget-header,
+    .table-01-menor .ui-widget-header {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .table-02 .ui-datatable-tablewrapper,
+    .table-01-maior .ui-datatable-tablewrapper,
+    .table-01-menor .ui-datatable-tablewrapper {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}
+
+
+/*          Extras              */
+
+table tbody tr.linhaVermelha,
+table tbody tr.linhaVermelha:hover {
+    background-color: var(--red-alert-soft) !important;
+}
+
+table tbody tr.linhaAzul,
+table tbody tr.linhaAzul:hover {
+    /*background-color: var(--azul-soft) !important;*/
+    background-color: rgba(44, 110, 255, 0.15) !important;
+    color: #0f0f0f !important;
+}
+
+table tbody tr.ui-state-highlight,
+table tbody tr.ui-state-highlight:hover {
+    background-color: var(--areia) !important;
+}
+
+
+/*      Subtable            */
+
+
+/*div[class*="table-"] table tbody td, div[class*="table-"] table thead th{*/
+
+
+/*    text-align: center!important;*/
+
+
+/*}*/
+
+div[class*="table-"] .subtable table,
+div[class*="table-"] .subtable-row table {
+    border: none!important;
+}
+
+div[class*="table-"] .subtable-row table thead tr th {
+    border-top: none!important;
+}
+
+div[class*="table-"] * {
+    -webkit-box-sizing: content-box!important;
+    -moz-box-sizing: content-box!important;
+    box-sizing: content-box!important;
+}
+
+.table-01-menor .ui-datatable-scrollable-body>* {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box !important;
+}
+
+div[class*="table-"] .ui-button {
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+
+div[class*="table-"] table tbody tr:last-child td {
+    border-bottom: none!important;
+}
+
+div[class*="table-"] .subtable-row td {
+    padding: 0!important;
+}
+
+div[class*="table-"] .subtable table td {
+    padding: 0 10px!important;
+}
+
+div[class*="table-"] .row-grey,
+div[class*="table-"] .row-grey:hover {
+    background-color: #FFFFFF !important;
+    color: var(--avante-purple) !important;
+}
+
+div[class*="table-"] .row-grey td {
+    border: none!important;
+}
+
+div[class*="table-"] .row-grey .ui-icon {
+    color: var(--dark-purple)!important;
+}
+
+div[class*="table-"] .row-red {
+    background-color: var(--vermelho-soft) !important;    
+}
+
+div[class*="table-"] .row-green {
+    background-color: var(--verde-soft) !important;   
+}
+
+div[class*="table-"] .row-blue {
+    background-color: var(--azul-soft) !important;    
+}
+
+div[class*="table-"] tr td .ui-chkbox {
+    margin-top: 0!important;
+}
+
+div[class*="table-"] table {
+    border-collapse: collapse!important;
+}
+
+div[class*="table-"] .ui-datatable-scrollable-footer-box table {
+    border: none!important;
+}
+
+.ui-row-toggler {
+    outline: none!important;
+}
+
+
+/* PANEL MENU */
+
+.conferencia-panel-menu .ui-widget.ui-panelmenu-header.ui-state-default.ui-corner-all {
+    background-color: white !important;
+}
+
+.conferencia-panel-menu span {
+    color: #424242 !important;
+}
+
+.conferencia-panel-menu .ui-icon.ui-icon-triangle-1-s {
+    color: #424242 !important;
+}
+
+.conferencia-panel-menu a {
+    color: #333 !important;
+}
+
+.conferencia-panel-menu .ui-panelmenu-content.ui-widget-content.ui-helper-hidden {
+    border: none !important;
+}
+
+.conferencia-panel-menu .ui-menuitem.ui-widget.ui-corner-all {
+    margin-left: 75px !important;
+}
+
+.conferencia-panel-menu .ui-widget.ui-panelmenu-header.ui-state-default.ui-state-active.ui-corner-top {
+    background-color: white !important;
+}
+
+.conferencia-panel-menu .ui-menuitem-link.ui-state-hover {
+    background-color: white !important;
+}
+
+
+/** Personalizar tabelas especificas**/
+
+
+/*body .ui-datatable.ui-datatable-scrollable.checkbox-table table tr:first-child td{*/
+
+
+/*    border-top: none!important;*/
+
+
+/*}*/
+
+body .ui-datatable.ui-datatable-scrollable.checkbox-table .ui-datatable-scrollable-header table {
+    border-bottom: none!important;
+}
+
+body .ui-datatable.ui-datatable-scrollable.checkbox-table .ui-datatable-scrollable-header {
+    display: table!important;
+}
+
+body .ui-datatable.ui-datatable-scrollable.checkbox-table .ui-datatable-scrollable-header thead {
+    visibility: visible!important;
+}
+
+body .ui-datatable.ui-datatable-scrollable.checkbox-table .ui-datatable-scrollable-theadclone * {
+    border: none!important;
+}
+
+body .ui-datatable.ui-datatable-scrollable.checkbox-table .ui-datatable-scrollable-theadclone {
+    visibility: collapse!important;
+}
+
+.align-right-text {
+    text-align: right;
+}
+
+body .ui-datatable tbody tr.ui-state-highlight .ui-inputfield {
+    color: #5a5a5a !important;
+}
+
+
+
+/*TABELA TIPO LIMPA 05*/
+
+.table-05 {
+    border-collapse: unset!important;
+}
+
+.table-05 .ui-widget-header {
+    background-color:#F6F9FC!important;
+    border: none;
+    /*height: 49px;*/
+}
+
+.table-05 tbody tr.ui-rowgroup-header {
+    background-color: #accbe9!important
+}
+
+.table-05 td .ui-column-title{
+   display: none!important;
+}
+
+.table-05 thead tr td input,
+.table-05 thead tr th input {
+    display: none!important;
+}
+
+.table-05 thead tr td,
+.table-05 thead tr th {
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px !important;*/
+    background-color: #f6f9fc;
+    outline: none!important;
+    color: #4A526B!important;
+    border: none!important;
+}
+
+
+/*.table-05 thead tr td,.table-05 thead tr th{*/
+
+
+/*    !*min-width: 44.6px!important;*!*/
+
+
+/*}*/
+
+.table-05 thead tr td span,
+.table-05 thead tr th span {
+    white-space: nowrap;
+}
+
+.table-05 table {
+    width: 99.9%!important;
+}
+
+.table-05 table tbody {
+    /* border: none!important; */
+    padding: 0;
+}
+
+.table-05 tbody tr td {
+    background-color: transparent;
+    color: var(--dark-purple) !important;
+     border: none!important; 
+}
+
+/*.table-05 tbody tr td:first-child {
+    background-color: transparent;
+    color: var(--dark-purple) !important;
+     border: none!important; 
+    font-weight: bold;
+}*/
+
+.table-05.ui-datatable tbody tr.ui-datatable-even {
+    background-color: #fff;
+}
+
+.table-05 tbody tr:nth-child(even) {
+    /*background-color: #fff!important;*/
+    border-bottom: none!important;
+}
+
+.table-05 tbody tr td .ui-cell-editor-input {
+    background-color: var(--azul-soft);
+    padding: 0;
+    margin: 0!important;
+}
+
+.table-05 tbody tr td .ui-cell-editor-input input {
+    border: none!important;
+    color: var(--dark-purple)!important;
+    background-color: var(--azul-soft)!important;
+    margin: 0!important;
+    height: 30px;
+}
+
+.table-05 tbody tr {
+    height: 30px;
+}
+
+.table-05 div[class*="table-"] table {
+     border-collapse: unset!important; 
+}
+
+.table-05.ui-treetable thead th,
+.table-05.ui-treetable tbody td {
+    padding: 4px 6px;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+
+/* por classe (col-desc) */
+/* Largura fixa da coluna Categoria (PF13) */
+.table-05.ui-treetable .ui-treetable-tablewrapper thead tr th.col-desc,
+.table-05.ui-treetable .ui-treetable-tablewrapper tbody tr td.col-desc {
+    width: 220px !important;   /* ajuste p/ 120–220 */
+    min-width: 220px !important;
+    max-width: 220px !important;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Backup por posição (1ª coluna) */
+.table-05.ui-treetable .ui-treetable-tablewrapper thead tr > th:first-child,
+.table-05.ui-treetable .ui-treetable-tablewrapper tbody tr > td:first-child {
+    width: 180px !important;
+    min-width: 180px !important;
+    max-width: 180px !important;
+}
+
+/* === PF13: limpa botão/ícone do toggler e encolhe de verdade === */
+.table-05.ui-treetable .ui-treetable-toggler.ui-button {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    min-width: 1.25rem; width: 1.25rem; height: 1.25rem;  /* botão pequeno */
+}
+.table-05.ui-treetable .ui-treetable-toggler .ui-button-text {  /* remove “texto” oculto */
+    display: none !important;
+}
+.table-05.ui-treetable .ui-treetable-indent {  /* indents menores */
+    width: .75rem !important;
+}
+
+/* Texto com ellipsis garantido */
+.table-05.ui-treetable tbody tr td.col-desc .desc-text {
+    display: block;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* ===== Meses / Total (mantém as suas) ===== */
+.table-05 .col-month {
+    width: 84px !important;
+    min-width: 76px;
+    max-width: 92px;
+    text-align: right;
+}
+.table-05 .col-total  {
+    width: 98px !important;
+    min-width: 90px;
+    max-width: 110px;
+    text-align: right;
+}
+.table-05 .cell-2lines { line-height: 1.1; white-space: nowrap; }
+.table-05 .cell-2lines .val { display:block; font-size:14px; }
+.table-05 .cell-2lines .pct { display:block; font-size:13px; opacity:.85; }
+
+
+/* --- 1) Travar largura da 1ª coluna (categoria) --- */
+.table-05.ui-treetable .ui-treetable-tablewrapper thead tr th.col-desc,
+.table-05.ui-treetable .ui-treetable-tablewrapper tbody tr td.col-desc{
+    width: 180px !important;             /* ajuste 140–220 se quiser */
+    min-width: 180px !important;
+    max-width: 180px !important;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;                     /* ellipsis aplicado no TD */
+    text-overflow: ellipsis;
+}
+
+/* backup por posição (caso a classe não venha no TH) */
+.table-05.ui-treetable .ui-treetable-tablewrapper thead tr > th:first-child,
+.table-05.ui-treetable .ui-treetable-tablewrapper tbody tr > td:first-child{
+    width: 180px !important;
+    min-width: 180px !important;
+    max-width: 180px !important;
+}
+
+/* --- 2) Tudo dentro do TD fica em linha  --- */
+.table-05.ui-treetable .ui-treetable-data tr td.col-desc > *{
+    display: inline-block !important;     /* indent + toggler + seu texto viram inline */
+    vertical-align: middle;
+}
+
+/* múltiplos “degraus” (indent) ocupam largura mas não “baixam” a linha */
+.table-05.ui-treetable .ui-treetable-data tr td.col-desc .ui-treetable-indent{
+    width: .8rem; height: 0;              /* não aumenta a altura da linha */
+}
+
+/* --- 3) Toggler “limpo” e discreto (usa o ícone do tema) --- */
+.table-05.ui-treetable .ui-treetable-data tr td.col-desc .ui-treetable-toggler.ui-button{
+    width: 18px; height: 18px;
+    padding: 0 !important; margin: 0 6px 0 0;
+    background: transparent !important; border: 0 !important; box-shadow: none !important;
+    display: inline-block; vertical-align: middle; position: relative;
+}
+.table-05.ui-treetable .ui-treetable-data tr td.col-desc .ui-treetable-toggler .ui-button-text{
+    display: none !important;            /* remove o "texto" oculto do PF */
+}
+
+/* “chip” leve no hover (sem mudar o ícone) */
+.table-05.ui-treetable .ui-treetable-data tr td.col-desc .ui-treetable-toggler.ui-button::before{
+    content:""; position:absolute; inset:0; border-radius:9999px; background: rgba(0,0,0,.06);
+    opacity: 0; transition: opacity .15s ease;
+}
+.table-05.ui-treetable .ui-treetable-data tr td.col-desc .ui-treetable-toggler.ui-button:hover::before{
+    opacity: 1;
+}
+
+/* --- 4) texto inline e com ellipsis --- */
+.table-05.ui-treetable td.col-desc .desc-text{
+    display: inline-block;                /* NÃO use layout=block no panelGroup */
+    max-width: 100%;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* botão do toggler: pequeno, redondo e sem estilos do tema */
+.table-05.ui-treetable .ui-treetable-data td.col-desc .ui-treetable-toggler.ui-button{
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; margin: 0 6px 0 0; padding: 0 !important;
+    background: transparent !important; border: 0 !important; box-shadow: none !important;
+    border-radius: 9999px; position: relative; vertical-align: middle; cursor: pointer;
+}
+.table-05.ui-treetable .ui-treetable-toggler .ui-button-text{ display: none !important; }
+
+/* “chip” suave de fundo no hover/focus */
+.table-05.ui-treetable .ui-treetable-data td.col-desc .ui-treetable-toggler.ui-button::before{
+    content:""; position:absolute; inset:0; border-radius:inherit;
+    background: rgba(0,0,0,.06); opacity: 0; transition: opacity .18s ease;
+}
+.table-05.ui-treetable .ui-treetable-data td.col-desc .ui-treetable-toggler.ui-button:hover::before{ opacity: 1; }
+
+/* ícone (pi ou ui-icon), cor e animação */
+.table-05.ui-treetable .ui-treetable-toggler .pi,
+.table-05.ui-treetable .ui-treetable-toggler .ui-icon{
+    font-size: 12px; color: var(--dark-purple);
+    transition: transform .18s ease, color .18s ease;
+}
+.table-05.ui-treetable .ui-treetable-toggler[aria-expanded="true"] .pi,
+.table-05.ui-treetable .ui-treetable-toggler[aria-expanded="true"] .ui-icon{
+    transform: rotate(90deg);
+}
+.table-05.ui-treetable .ui-treetable-toggler.ui-button:hover .pi,
+.table-05.ui-treetable .ui-treetable-toggler.ui-button:hover .ui-icon{
+    color: rgba(0,0,0,.8);
+}
+
+/* === Embeleza o toggler do TreeTable (PF13 + jQuery UI icon) === */
+
+/* base: limpa o sprite do tema e define tamanho/box do botão */
+.table-05.ui-treetable .ui-treetable-toggler.ui-icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px; height: 20px;
+    margin: 0 6px 2px 0;                  /* pequeno respiro do texto */
+    background: transparent !important;
+    background-image: none !important;     /* mata o sprite do tema */
+    border: 0 !important;
+    box-shadow: none !important;
+    position: relative;
+    border-radius: 9999px;                 /* para o “chip” */
+    cursor: pointer;
+    line-height: 20px;
+}
+
+/* “chip” suave no hover/focus */
+.table-05.ui-treetable .ui-treetable-toggler.ui-icon::before{
+    content: "";
+    position: absolute; inset: 0;
+    border-radius: inherit;
+    background: rgba(0,0,0,.06);
+    opacity: 0;
+    transition: opacity .18s ease;
+}
+.table-05.ui-treetable .ui-treetable-toggler.ui-icon:hover::before,
+.table-05.ui-treetable .ui-treetable-toggler.ui-icon:focus-visible::before{
+    opacity: 1;
+}
+
+/* nossa seta: arrow direita (chevron triangular) */
+.table-05.ui-treetable .ui-treetable-toggler.ui-icon::after{
+    content: "";
+    display: block;
+    width: 0; height: 0;
+    margin: 0 auto;                        /* centraliza no chip */
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid var(--dark-purple);  /* cor da seta */
+    transform: translateY(2px);            /* micro ajuste vertical */
+    transition: transform .18s ease, border-left-color .18s ease;
+}
+
+/* quando expandido (classe do tema = ui-icon-triangle-1-s) gira 90° */
+.table-05.ui-treetable .ui-treetable-toggler.ui-icon.ui-icon-triangle-1-s::after{
+    transform: translateY(2px) rotate(90deg);
+}
+
+/* hover: seta um pouco mais escura */
+.table-05.ui-treetable .ui-treetable-toggler.ui-icon:hover::after{
+    border-left-color: rgba(0,0,0,.8);
+}
+
+/* footer do treetable com o mesmo visual da “row-blue” */
+.table-05.ui-treetable tfoot td {
+    background: var(--azul-soft) !important;
+    color: var(--dark-purple) !important;
+    border: none !important;
+    padding: 4px 6px;            /* igual ao tbody/thead */
+}
+
+/* primeira célula do footer (rótulo) em negrito */
+.table-05.ui-treetable tfoot td:first-child {
+    font-weight: 600;
+}
+
+/* reaproveita sua célula de duas linhas */
+.table-05 .cell-2lines{ display:flex; flex-direction:column; align-items:flex-end; line-height:1.1; white-space:nowrap; }
+.table-05 .cell-2lines .val{ font-size:14px; }
+.table-05 .cell-2lines .pct{ font-size:13px; opacity:.85; }
+
+/*TABELA TIPO LIMPA 05*/
+
+
+.color-verde-icon-table{
+    color: var(--verde-avante);
+}
+
+.color-vermelha-icon-table{
+    color: var(--laranja-avante);
+}
+
+.color-cinza-icon-table{
+    color: var(--cool-grey-background);
+        font-size: 18px!important;
+}
+
+
+.table-slide-bar {
+    
+}
+
+.badge-ativa {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-ativa:after {
+    color: white;
+    font-size: 12px;
+    content: "Ativa" !important;
+}
+
+.badge-inativa {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-inativa:after {
+    color: white;
+    font-size: 12px;
+    content: "Inativa" !important;
+}
+
+.badge-ativo {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-ativo:after {
+    color: white;
+    font-size: 12px;
+    content: "Ativo" !important;
+}
+
+.badge-inativo {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-inativo:after {
+    color: white;
+    font-size: 12px;
+    content: "Inativo" !important;
+}
+
+.badge-revisao {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-revisao:after {
+    color: white;
+    font-size: 12px;
+    content: "Em revisão" !important;
+}
+
+.badge-vencido {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--yellow-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-vencido:after {
+    color: white;
+    font-size: 12px;
+    content: "Vencido" !important;
+}
+
+.badge-vencido-faturamento {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-vencido-faturamento:after {
+    color: white;
+    font-size: 12px;
+    content: "Vencido" !important;
+}
+
+.badge-simPromo {
+    width: 68px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--verde-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-simPromo:after {
+    color: white;
+    font-size: 12px;
+    content: "Sim" !important;
+}
+
+.badge-naoPromo {
+    width: 68px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--laranja-avante);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-naoPromo:after {
+    color: white;
+    font-size: 12px;
+    content: "Não" !important;
+}
+
+
+/* ===== Badges de situacao da viagem (modulo de Gestao de Transportes) =====
+   Mesmo formato de .badge-ativa: o texto vem do content do :after, por isso
+   cada situacao tem a sua classe. Cores seguem o fluxo: cinza no planejamento,
+   azul em andamento, amarelo aguardando acao, verde concluido, vermelho
+   cancelado.                                                                */
+.badge-viagem-planejada,
+.badge-viagem-liberada,
+.badge-viagem-emviagem,
+.badge-viagem-aguardando,
+.badge-viagem-acertada,
+.badge-viagem-finalizada,
+.badge-viagem-cancelada {
+    width: 120px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-viagem-planejada  { background-color: #95a7b5; }
+.badge-viagem-liberada   { background-color: var(--azul-medio); }
+.badge-viagem-emviagem   { background-color: var(--azul-avante); }
+.badge-viagem-aguardando { background-color: #f0b429; }
+.badge-viagem-acertada   { background-color: var(--verde-agro); }
+.badge-viagem-finalizada { background-color: var(--verde-avante); }
+.badge-viagem-cancelada  { background-color: var(--laranja-avante); }
+
+.badge-viagem-planejada:after,
+.badge-viagem-liberada:after,
+.badge-viagem-emviagem:after,
+.badge-viagem-aguardando:after,
+.badge-viagem-acertada:after,
+.badge-viagem-finalizada:after,
+.badge-viagem-cancelada:after {
+    color: white;
+    font-size: 12px;
+}
+
+.badge-viagem-planejada:after  { content: "Planejada" !important; }
+.badge-viagem-liberada:after   { content: "Liberada" !important; }
+.badge-viagem-emviagem:after   { content: "Em viagem" !important; }
+.badge-viagem-aguardando:after { content: "Aguard. acerto" !important; }
+.badge-viagem-acertada:after   { content: "Acertada" !important; }
+.badge-viagem-finalizada:after { content: "Finalizada" !important; }
+.badge-viagem-cancelada:after  { content: "Cancelada" !important; }
+
+
+/* ===== Badges da conferencia de despesa (Gestao de Transportes) ===== */
+.badge-conferencia-pendente,
+.badge-conferencia-aprovado,
+.badge-conferencia-rejeitado {
+    width: 95px;
+    height: 17px;
+    font-family: "neue haas grotesk display pro";
+    font-style: normal;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-conferencia-pendente  { background-color: #f0b429; }
+.badge-conferencia-aprovado  { background-color: var(--verde-avante); }
+.badge-conferencia-rejeitado { background-color: var(--laranja-avante); }
+
+.badge-conferencia-pendente:after,
+.badge-conferencia-aprovado:after,
+.badge-conferencia-rejeitado:after {
+    color: white;
+    font-size: 12px;
+}
+
+.badge-conferencia-pendente:after  { content: "Pendente" !important; }
+.badge-conferencia-aprovado:after  { content: "Aprovado" !important; }
+.badge-conferencia-rejeitado:after { content: "Rejeitado" !important; }

@@ -1,0 +1,514 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" style="--azul-avante: #096b95; --azul-soft: #88cfeb; --azul-avante-rgb-hex: #88cfeb; --menu-hover: #096b95; --container-geral: #f4f7f9;"><head id="j_idt2">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            
+            <link rel="shortcut icon" type="image/x-icon" href="assets/logoFavIcon.png"><link type="text/css" rel="stylesheet" href="assets/4fa0c137-theme.css"><link type="text/css" rel="stylesheet" href="assets/debf248f-primeicons.css"><link rel="stylesheet" href="assets/grid.css"><link rel="stylesheet" href="assets/form.css"><link rel="stylesheet" href="assets/fonts.css"><link rel="stylesheet" href="assets/colors.css"><link rel="stylesheet" href="assets/layout.css"><link rel="stylesheet" href="assets/tables.css"><link rel="stylesheet" href="assets/loginV2.css"><link rel="stylesheet" href="assets/growlV2.css"><link rel="stylesheet" href="assets/b28bc6dd-tablev2.css"><link rel="stylesheet" href="assets/4085abec-cabecario.css"><link rel="stylesheet" href="assets/buttonV2.css"><link rel="stylesheet" href="assets/tipografia.css"><link rel="stylesheet" href="assets/bootstrap.css"><link rel="stylesheet" href="assets/d4ab4e35-components.css"><link rel="stylesheet" href="assets/a49f5604-layout-blue.css"><link rel="stylesheet" href="assets/c65549b3-ripple.css">
+        <title>Web Ágili Soluções em Tecnologia</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+        
+
+        
+        <style>
+
+            .backgroundAgro{
+                background: green;
+            }
+            .backgroundBatom{
+                background: #8a483f!important;
+            }
+            .backgroundGeral{
+                background: #1D50DC!important;
+            }
+            .backgroundFood{
+                background: #F9755A!important;
+            }
+            .backgroundPet{
+                background: var(--pet-principal)!important;
+            }
+
+              .backgroundSalao{
+                background: var(--salao-principal)!important;
+            }
+
+            .backgroundBarbearia{
+                background: var(--barbearia-principal)!important;
+            }
+
+            .fonteAzul{
+                color: #1976D2;
+            }
+            
+            @media (max-width: 640px) {
+                .login-panel {
+                    width: 300px;
+                }
+                .ui-g-12 {
+                    padding: 20px 35px;
+                }
+            }
+
+            .flex-center{
+                width: 100% !important;
+                display:flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+            }
+            .flex-end{
+                display:flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            .flex-start{
+                display:flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            #formModaisV2\:termosCondicoesV2.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-shadow.ui-hidden-container{
+                width: 500px!important;
+                height: 315px !important
+            }
+
+            #formModaisV2\:termosCondicoesV2.ui-dialog.ui-widget.ui-widget-content.ui-corner-all {
+                overflow-y: hidden;
+            }
+
+            .dialog-menor-v2.ui-dialog {
+                width: 500px!important;
+                height: 350px!important;
+            }
+
+            body .dialogAlterarSenha.ui-dialog{
+                overflow-y: hidden;
+                width: 40%!important;
+            }
+
+
+            .loader {
+                width: 48px;
+                height: 48px;
+                display: block;
+                margin: 15px auto;
+                position: relative;
+                color: #FFF;
+                box-sizing: border-box;
+                animation: rotation_19 1s linear infinite;
+            }
+
+            .loader::after,
+            .loader::before {
+                content: '';
+                box-sizing: border-box;
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                top: 0;
+                background-color: #FFF;
+                border-radius: 50%;
+                animation: scale50 1s infinite ease-in-out;
+            }
+
+            .loader::before {
+                top: auto;
+                bottom: 0;
+                background-color: #FF3D00;
+                animation-delay: 0.5s;
+            }
+
+            @keyframes rotation_19 {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes scale50 {
+                0%, 100% {
+                    transform: scale(0);
+                }
+
+                50% {
+                    transform: scale(1);
+                }
+            }
+
+            .totp-container {
+                display: flex;
+                gap: 10px;
+            }
+
+            .totp-input {
+                text-align: center;
+                font-size: 20px;
+                width: 60px;
+                height: 40px;
+
+                padding: 0!important;
+
+                border:1px solid var(--cool-grey-3)!important;
+                border-radius: 5px!important;
+                background-color: white!important;
+                color:var(--dark-purple)!important;
+            }
+        </style></head><body><span id="growl"></span>
+
+    <!--&lt;editor-fold desc="WhiteLabel"&gt;--><span id="j_idt39"></span><div id="j_idt40"></div><div id="j_idt41" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container loading-gif" style="display: none; width: auto; height: auto;" role="dialog" aria-describedby="j_idt41_content" aria-hidden="true" aria-modal="true"><div class="ui-dialog-content ui-widget-content" id="j_idt41_content" style="height: auto;">
+            <img src="assets/loading.gif"></div></div>
+<form id="formLogin" name="formLogin" method="post" action="#" onsubmit="return false" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formLogin" value="formLogin">
+<input id="formLogin:google" name="formLogin:google" type="hidden" value="" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all " size="1" role="textbox" aria-disabled="false" aria-readonly="false"><button id="formLogin:dummy" name="formLogin:dummy" class="" onclick="PrimeFaces.ab({s:&quot;formLogin:dummy&quot;,f:&quot;formLogin&quot;,p:&quot;@none&quot;,g:false});return false;" style="display:none;" type="submit"><span class="ui-button-text ui-c">ui-button</span></button>
+            <div class="backgroundGeral box-login" style="background: url('assets/background.png') !important;background-repeat: no-repeat!important;background-size: cover!important;">
+
+                <!--LOGO TOPO CANTO ESQUERDO-->
+                  <!--LOGO TOPO CANTO ESQUERDO-->
+
+                  <!--LOGO TOPO CANTO ESQUERDO WHITE LABEL-->
+                  <!--LOGO TOPO CANTO ESQUERDO WHITE LABEL--><div id="formLogin:j_idt50" class="ui-outputpanel ui-widget">
+                    <div class="ui-g-12" style="padding: 15px 0px; margin: 10px 0px 5px 0px;"></div></div>
+
+
+                <div class="ui-g login-panel" style="margin: 0;position: absolute; top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);">
+
+                    <!--PARAGRAFO DE ACESSE SUA CONTA-->
+                    <!--PARAGRAFO DE ACESSE SUA CONTA-->
+
+                    <!--PARAGRAFO DE ACESSE SUA CONTA WHITE LABEL-->
+                   <!--PARAGRAFO DE ACESSE SUA CONTA WHITE LABEL--><div id="formLogin:j_idt59" class="ui-outputpanel ui-widget" style="display: none;">
+
+                        <div class="ui-g-12" style="background: white;padding: 20px 30px;margin: 30px 0px 20px 0px;"><img id="formLogin:j_idt61" src="assets/e60d256c-logo.png" alt="" style="height: 69px; position: relative;">
+                        </div></div>
+
+
+                    <!--LOGO LOGIN PARA WHITE LABEL--><div id="formLogin:j_idt64" class="ui-outputpanel ui-widget" style="display: flex;">
+                        <div class="ui-g-12" style="background: white;padding: 20px 30px;margin: 30px 0px 20px 0px;"><img id="formLogin:j_idt66" src="assets/logo-whitelabel.png" alt="" class="ant-image-img" style="cursor: default;">
+                        </div></div>
+                    <!--LOGO LOGIN PARA WHITE LABEL-->
+
+                    <div class="form-dark">
+                        <div class="col-12" style="display: contents">
+                            <label>E-mail</label><input id="formLogin:username" name="formLogin:username" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-input ui-state-focus" onkeyup="passaCampo(event, 'formLogin:password', 'formLogin:username')" role="textbox" aria-disabled="false" aria-readonly="false">
+                        </div>
+                        <div class="col-12" style="display: contents">
+                            <label>Senha</label><input id="formLogin:password" name="formLogin:password" type="password" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-input" onkeyup="passaCampo(event, 'formLogin:entrar', 'formLogin:password')" role="textbox" aria-disabled="false" aria-readonly="false">
+                            <p class="text-link">Esqueceu a senha? <a href="#" onclick="mojarra.cljs(document.getElementById('formLogin'),{'formLogin:j_idt72':'formLogin:j_idt72'},'');return false">Faça uma nova aqui</a></p>
+                        </div>
+                        <div class="col-12" style="display: contents"><button id="formLogin:entrar" name="formLogin:entrar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only login-entrar-btn  " onclick="PrimeFaces.ab({s:&quot;formLogin:entrar&quot;,f:&quot;formLogin&quot;,u:&quot;growl formLogin:google&quot;});return false;" alt="Entrar" style=" background: #096b95 !important;" type="submit"><span class="ui-button-text ui-c">Entrar</span></button>
+                        </div>
+                    </div>
+
+
+                </div><div id="formLogin:j_idt81" class="ui-outputpanel ui-widget">
+                    <div class="ui-g-12" style="padding: 20px 30px; margin: 30px 0px 20px 0px;"></div></div>
+            </div>
+</form>
+    
+
+    
+    <div id="alterarSenhaModalV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialogAlterarSenha" style="border-radius: 20px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="alterarSenhaModalV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="alterarSenhaModalV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="alterarSenhaModalV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="alterarSenhaModalV2_content" style="height: auto;">
+    <style type="text/css">
+
+        .cadastro-cliente:before {
+            font-family: icomoon;
+            content:  "\e903";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+        .consulta-cliente:before {
+            font-family: icomoon;
+            content:  "\e919";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+        .normal:before {
+            font-family: icomoon;
+            content:  "\e91d";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .calendario-agenda:before {
+            font-family: icomoon;
+            content:  "\e953";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .assinatura:before{
+            font-family: icomoon;
+            content: "\e969";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .duplicar:before{
+            font-family: icomoon;
+            content: "\e90b";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .food:before{
+            font-family: icomoon;
+            content:  "\e944";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .whatsapp:before{
+            font-family: FontAwesome;
+            content: "\f232";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .icon-usuario:before{
+            font-family: icomoon;
+            content: "\e97a";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+
+        @media only screen and (max-width: 800px) {
+            .cabecario-v2-01 {
+                font-size: 14px;
+                line-height: 1.2;
+                flex-direction: column;
+                align-items: center;
+            }
+            .cabecario-v2-01.flex1 .cabecario-icone{
+                display: none;
+            }
+            .cabecario-final{
+                display: flex;
+                flex-grow: 0;
+                gap: 10px;
+                flex-direction: row-reverse;
+                margin-top: 8px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .arruma-mobile .voltarV2{
+                width: 160px!important;
+            }
+        }
+        .titulo-cabecario {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+    </style>
+    <div class="cabecario-v2-01 topBarStick " style="padding-bottom: 24px">
+        <div class="cabecario-v2-01 flex1">
+            <div class="cabecario-icone ">
+                <span class="normal"></span>
+            </div>
+            <div class="cabecario-texto">
+                <div class="titulo-cabecario">Resetar Senha</div>
+                <div style="font-size: 14px; font-weight: 500">
+                </div>
+            </div>
+        </div>
+        <div class="cabecario-final arruma-mobile"><button id="j_idt109:btn1" name="j_idt109:btn1" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ver1" onclick="PrimeFaces.bcn(this,event,[function(event){},function(event){PrimeFaces.ab({s:&quot;j_idt109:btn1&quot;,u:&quot;growl alterarSenhaForm:novaSenhaV2 alterarSenhaForm:confirmarNovaSenhaV2 formLoginV2:usernameV2&quot;,onco:function(xhr,status,args,data){;}});return false;}]);" title="Confirmar" type="submit" onmousedown=""><span class="ui-button-text ui-c">Confirmar</span></button>
+        </div>
+    </div>
+<form id="alterarSenhaForm" name="alterarSenhaForm" method="post" action="#" onsubmit="return false" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="alterarSenhaForm" value="alterarSenhaForm">
+
+            <div class="subtitle-divider"></div>
+            <div class="row form-dark">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <label class="form-label">Nova Senha</label><input id="alterarSenhaForm:novaSenhaV2" name="alterarSenhaForm:novaSenhaV2" type="password" class="ui-password ui-inputfield ui-widget ui-state-default ui-corner-all form-input" aria-required="true" autocomplete="new-password" maxlength="64" onkeyup="validarCampoSenha()" onchange="PrimeFaces.ab({s:&quot;alterarSenhaForm:novaSenhaV2&quot;,e:&quot;change&quot;,f:&quot;alterarSenhaForm&quot;,p:&quot;alterarSenhaForm:novaSenhaV2&quot;});" role="textbox" aria-disabled="false" aria-readonly="false">
+                    <div id="barras" style="display: block;">
+                        <div id="barra">Pelo menos 6 caracteres <i id="icone_barra"></i></div>
+                        <div id="barra_1">Pelo menos 1 letra <i id="icone_barra_1"></i></div>
+                        <div id="barra_2">Pelo menos 1 número <i id="icone_barra_2"></i></div>
+                    </div><div id="alterarSenhaForm:caixaSenhaV2" role="alert" aria-atomic="true" aria-live="polite" class="ui-message"></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <label class="form-label">Confirmar Senha</label><input id="alterarSenhaForm:confirmarNovaSenhaV2" name="alterarSenhaForm:confirmarNovaSenhaV2" type="password" class="ui-password ui-inputfield ui-widget ui-state-default ui-corner-all form-input" aria-required="true" autocomplete="new-password" maxlength="64" onkeyup="validarCampoSenha1()" onchange="PrimeFaces.ab({s:&quot;alterarSenhaForm:confirmarNovaSenhaV2&quot;,e:&quot;change&quot;,f:&quot;alterarSenhaForm&quot;,p:&quot;alterarSenhaForm:confirmarNovaSenhaV2&quot;});" role="textbox" aria-disabled="false" aria-readonly="false">
+                    <div id="barras1" style="display: block;">
+                        <div id="barra3">Pelo menos 6 caracteres <i id="icone_barra3"></i></div>
+                        <div id="barra_4">Pelo menos 1 letra <i id="icone_barra_4"></i></div>
+                        <div id="barra_5">Pelo menos 1 número <i id="icone_barra_5"></i></div>
+                    </div>
+                </div>
+            </div>
+</form></div></div><div id="alterarSenhaRecuperadaModalV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="display: none; width: auto; height: auto;" role="dialog" aria-describedby="alterarSenhaRecuperadaModalV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="alterarSenhaRecuperadaModalV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="alterarSenhaRecuperadaModalV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="alterarSenhaRecuperadaModalV2_content" style="height: auto;"></div></div><div id="primeiroAcessoModalV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="display: none; width: auto; height: auto;" role="dialog" aria-describedby="primeiroAcessoModalV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="primeiroAcessoModalV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="primeiroAcessoModalV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="primeiroAcessoModalV2_content" style="height: auto;"></div></div><div id="primeiroAcessoMeiModalV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="overflow: auto; border-radius: 20px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="primeiroAcessoMeiModalV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="primeiroAcessoMeiModalV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="primeiroAcessoMeiModalV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="primeiroAcessoMeiModalV2_content" style="height: auto;"></div></div>
+
+    <!--Modal Referente ao plano demonstra&ccedil;&atilde;o--><div id="primeiroAcessoAgroV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="overflow: auto; border-radius: 20px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="primeiroAcessoAgroV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="primeiroAcessoAgroV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="primeiroAcessoAgroV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="primeiroAcessoAgroV2_content" style="height: auto;"></div></div><div id="abreExperienceV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="overflow: auto; border-radius: 20px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="abreExperienceV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="abreExperienceV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="abreExperienceV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="abreExperienceV2_content" style="height: auto;"></div></div><div id="fechaExperienceV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="overflow: auto; border-radius: 20px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="fechaExperienceV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="fechaExperienceV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="fechaExperienceV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="fechaExperienceV2_content" style="height: auto;"></div></div><div id="pendenciasFinanceirasV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="overflow: auto; border-radius: 20px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="pendenciasFinanceirasV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="pendenciasFinanceirasV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="pendenciasFinanceirasV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="pendenciasFinanceirasV2_content" style="height: auto;"></div></div><div id="demonstracaoExpiradoV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="overflow: auto; border-radius: 20px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="demonstracaoExpiradoV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="demonstracaoExpiradoV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="demonstracaoExpiradoV2_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="demonstracaoExpiradoV2_content" style="height: auto;"></div></div>
+
+    <!--Modal 2FA--><div id="auth2FA" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container zindex-teste" style="overflow: auto; border-radius: 20px; max-width: 560px; padding-bottom: 45px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="auth2FA_content" aria-hidden="true" aria-modal="true" aria-labelledby="auth2FA_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="auth2FA_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="auth2FA_content" style="height: auto;">
+<form id="formAuth2FA" name="formAuth2FA" method="post" action="#" onsubmit="return false" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formAuth2FA" value="formAuth2FA">
+
+    <style type="text/css">
+
+        .cadastro-cliente:before {
+            font-family: icomoon;
+            content:  "\e903";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+        .consulta-cliente:before {
+            font-family: icomoon;
+            content:  "\e919";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+        .normal:before {
+            font-family: icomoon;
+            content:  "\e91d";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .calendario-agenda:before {
+            font-family: icomoon;
+            content:  "\e953";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .assinatura:before{
+            font-family: icomoon;
+            content: "\e969";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .duplicar:before{
+            font-family: icomoon;
+            content: "\e90b";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .food:before{
+            font-family: icomoon;
+            content:  "\e944";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .whatsapp:before{
+            font-family: FontAwesome;
+            content: "\f232";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+        .icon-usuario:before{
+            font-family: icomoon;
+            content: "\e97a";
+            color: var(--azul-avante);
+            font-size: 1.8em;
+        }
+
+
+        @media only screen and (max-width: 800px) {
+            .cabecario-v2-01 {
+                font-size: 14px;
+                line-height: 1.2;
+                flex-direction: column;
+                align-items: center;
+            }
+            .cabecario-v2-01.flex1 .cabecario-icone{
+                display: none;
+            }
+            .cabecario-final{
+                display: flex;
+                flex-grow: 0;
+                gap: 10px;
+                flex-direction: row-reverse;
+                margin-top: 8px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .arruma-mobile .voltarV2{
+                width: 160px!important;
+            }
+        }
+        .titulo-cabecario {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+    </style>
+    <div class="cabecario-v2-01 topBarStick " style="padding-right: 2px; font-size: 27px">
+        <div class="cabecario-v2-01 flex1">
+            <div class="cabecario-icone ">
+                <span class="cadastro-cliente"></span>
+            </div>
+            <div class="cabecario-texto">
+                <div class="titulo-cabecario">Autenticação Dois Fatores</div>
+                <div style="font-size: 14px; font-weight: 500">Insira o código de autenticação nos campos abaixo
+                </div>
+            </div>
+        </div>
+        <div class="cabecario-final arruma-mobile">
+        </div>
+    </div>
+
+            <div class="row form-dark d-flex justify-content-center align-items-center gap-3" style="margin: 0 15px;">
+                <div class="col-12">
+                </div>
+
+                <div class="col-12">
+                    <label id="auth2FALabel" class="form-label">Código de autenticação*</label>
+                    <div class="totp-container" style="padding-top: 10px;"><input id="formAuth2FA:totp1" name="formAuth2FA:totp1" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all totp-input" maxlength="1" size="1" onkeyup="moveToNextTOTP(event, 'formAuth2FA:totp1', this, 'formAuth2FA:totp2')" onpaste="handlePasteTOTP(event)" onfocus="markManualEdit()" role="textbox" aria-disabled="false" aria-readonly="false"><input id="formAuth2FA:totp2" name="formAuth2FA:totp2" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all totp-input" maxlength="1" size="1" onkeyup="moveToNextTOTP(event, 'formAuth2FA:totp1', this, 'formAuth2FA:totp3')" onfocus="markManualEdit()" role="textbox" aria-disabled="false" aria-readonly="false"><input id="formAuth2FA:totp3" name="formAuth2FA:totp3" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all totp-input" maxlength="1" size="1" onkeyup="moveToNextTOTP(event, 'formAuth2FA:totp2', this, 'formAuth2FA:totp4')" onfocus="markManualEdit()" role="textbox" aria-disabled="false" aria-readonly="false"><input id="formAuth2FA:totp4" name="formAuth2FA:totp4" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all totp-input" maxlength="1" size="1" onkeyup="moveToNextTOTP(event, 'formAuth2FA:totp3', this, 'formAuth2FA:totp5')" onfocus="markManualEdit()" role="textbox" aria-disabled="false" aria-readonly="false"><input id="formAuth2FA:totp5" name="formAuth2FA:totp5" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all totp-input" maxlength="1" size="1" onkeyup="moveToNextTOTP(event, 'formAuth2FA:totp4', this, 'formAuth2FA:totp6')" onfocus="markManualEdit()" role="textbox" aria-disabled="false" aria-readonly="false"><input id="formAuth2FA:totp6" name="formAuth2FA:totp6" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all totp-input" maxlength="1" size="1" onkeyup="                                          if(event.keyCode===13){                                              event.preventDefault(); event.stopPropagation();                                              concatenarTOTP('formAuth2FA:auth2FACode');                                              enviarCodigoAuth2FA();                                          }else{                                              moveToNextTOTP(event, 'formAuth2FA:totp5', this, '');                                          }" role="textbox" aria-disabled="false" aria-readonly="false"><input id="formAuth2FA:auth2FACode" type="hidden" name="formAuth2FA:auth2FACode">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-dark">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center gap-3"><button id="formAuth2FA:validar2AF" name="formAuth2FA:validar2AF" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.bcn(this,event,[function(event){concatenarTOTP('formAuth2FA:auth2FACode'); enviarCodigoAuth2FA();},function(event){PrimeFaces.ab({s:&quot;formAuth2FA:validar2AF&quot;,e:&quot;click&quot;,f:&quot;formAuth2FA&quot;,p:&quot;@none&quot;});}]);" type="button"><span class="ui-button-text ui-c">Validar</span></button>
+                    </div>
+                </div>
+            </div>
+</form></div></div>
+
+    <!--Modal Termos e Condi&ccedil;&otilde;es-->
+
+    <!--Modal Termos e Condi&ccedil;&otilde;es Whitelabel--><div id="termosCondicoesWhiteLabel" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialog-menor-v2" style="border-radius: 20px; display: none; width: auto; height: auto;" role="dialog" aria-describedby="termosCondicoesWhiteLabel_content" aria-hidden="true" aria-modal="true" aria-labelledby="termosCondicoesWhiteLabel_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="termosCondicoesWhiteLabel_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="termosCondicoesWhiteLabel_content" style="height: auto;">
+
+        <div class="container">
+            <div class="row">
+                <h2 class="subtitle2">Termos e condições:</h2>
+                <div class="subtitle-divider"></div>
+                <div class="col-12">
+                </div>
+                <br><br>
+                <div class="col-12">
+                </div>
+                <div class="subtitle-divider"></div>
+            </div>
+        </div>
+        <div class="col-3" style="position: fixed; margin-left: 48%!important"><button id="j_idt227" name="j_idt227" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only voltar" onclick="PrimeFaces.bcn(this,event,[function(event){PF('termosCondicoesWhiteLabel').hide();},function(event){PrimeFaces.ab({s:&quot;j_idt227&quot;});return false;}]);" title="Fechar" type="submit"><span class="ui-button-text ui-c">Fechar</span></button>
+        </div></div></div>
+
+    <!--Fim do Modal Referente ao plano demonstra&ccedil;&atilde;o--><div id="inadimplenteDialogV2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="display: none; width: 60%; height: auto;" role="dialog" aria-describedby="inadimplenteDialogV2_content" aria-hidden="true" aria-modal="true" aria-labelledby="inadimplenteDialogV2_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="inadimplenteDialogV2_title" class="ui-dialog-title"></span></div><div class="ui-dialog-content ui-widget-content" id="inadimplenteDialogV2_content" style="height: auto;">
+
+        <div class="ui-grid ui-grid-responsive">
+            <div class="ui-grid-row">
+                <div class="ui-grid-col-9">
+                    <div style="font-size: 20px; color: #757575; font-weight: bold;">
+                        
+                    </div>
+                </div>
+                <div class="ui-grid-col-1" style="margin-left: 45%;"><button id="j_idt231" name="j_idt231" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" onclick="PrimeFaces.bcn(this,event,[function(event){openJanela('')},function(event){PrimeFaces.ab({s:&quot;j_idt231&quot;,u:&quot;growl&quot;});return false;}]);" style="float: right;" title="Pagar Boleto" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-attach-money"></span><span class="ui-button-text ui-c">Pagar Boleto</span></button>
+                </div>
+            </div>
+        </div>
+        <br></div></div><div id="listaEmpresasDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-dialog-absolute" style="border-radius: 20px; display: none; width: 30%; height: auto;" role="dialog" aria-describedby="listaEmpresasDialog_content" aria-hidden="true" aria-modal="true" aria-labelledby="listaEmpresasDialog_title"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="listaEmpresasDialog_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="listaEmpresasDialog_content" style="height: auto;"></div></div>
+
+    
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div id="growl_container" class="ui-growl ui-widget" aria-live="polite" style="z-index: 1001;"></div><div class="ui-dialog-docking-zone"></div><div id="alterarSenhaForm:confirmarNovaSenhaV2_panel" class="ui-password-panel ui-widget ui-state-highlight ui-corner-all ui-helper-hidden ui-password-panel-overlay ui-shadow"><div class="ui-password-meter" style="background-position:0pt 0pt">&nbsp;</div><div class="ui-password-info">Informe o campo Senha</div></div></body><!--&lt;/editor-fold&gt;--><!--&lt;editor-fold desc="Web"&gt;--><!--&lt;/editor-fold&gt;--></html>

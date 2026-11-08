@@ -1,0 +1,44 @@
+.cabecario-v2-01{
+    display: flex;
+    padding-right: 5px;
+    padding-left: 2px;
+}
+.cabecario-v2-01.flex1{
+    display: flex;
+    align-items: stretch;
+    justify-content: initial;
+    gap: 20px;
+}
+.cabecario-v2-01.flex1 .cabecario-icone{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background-color: color-mix(in srgb, var(--azul-avante) 16%, #fff);
+    margin-top: 7.5px;
+}
+.cabecario-v2-01.flex1 .cabecario-icon{
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cabecario-v2-01.flex1 .cabecario-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+}
+.cabecario-final{
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+    flex-direction: row-reverse;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}

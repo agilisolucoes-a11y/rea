@@ -1,0 +1,269 @@
+body .ui-growl {
+    top: 90px;
+}
+body .ui-growl > .ui-growl-item-container {
+    opacity: 1;
+}
+body .ui-growl > .ui-growl-item-container.ui-growl-info {
+    /*background-color: #2196F3;*/
+    /*background-color: var(--azul-avante-op-40)!important;*/
+    /*background-color: var(--azul-avante)!important;*/
+    background-color: var(--azul-avante)!important;
+}
+body .ui-growl > .ui-growl-item-container.ui-growl-warn {
+    background-color: #FFDA6A;;
+}
+body .ui-growl > .ui-growl-item-container.ui-growl-error {
+    background-color: #e62a10;
+}
+body .ui-growl > .ui-growl-item-container.ui-growl-fatal {
+    background-color: #212121;
+}
+body .ui-growl > .ui-growl-item-container.ui-shadow {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/*<editor-fold desc="MENSAGEM ERRO">*/
+.ui-growl-item-container.ui-state-highlight.ui-corner-all.ui-helper-hidden.ui-shadow.ui-growl-error {
+    width: 360px!important;
+    height: auto;
+    padding: 2px 20px 14px 2px;
+    border-radius: 16px;
+    gap: 16px;
+
+    /*background-color: var(--vermelho-claro-food)*/
+    background-color: var(--vermelho-food);
+
+}
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-error {
+    font-family: 'Material Icons', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 14px;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+    vertical-align: middle;
+}
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-error:before {
+    display: flex;
+    transform: scale(0.75);
+    margin-right: 5px;
+    content: url("icone-errov2.svg")!important;
+}
+/*</editor-fold>*/
+
+
+body .ui-growl .ui-growl-item .ui-growl-image {
+    background: none;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.ui-growl-item-container.ui-state-highlight.ui-corner-all.ui-helper-hidden.ui-shadow.ui-growl-warn {
+    width: 360px!important;
+    height: auto;
+    padding: 2px 20px 14px 2px;
+    border-radius: 16px;
+    gap: 16px;
+
+    background-color: #FFDA6A;
+}
+
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-warn {
+    font-family: 'Material Icons', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 14px;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-warn:before {
+    display: flex;
+    transform: scale(1.25);
+    margin-right: 5px;
+    content: url("icone-atencaov2.svg")!important;
+}
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-fatal {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+    font-size: 14px;
+}
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-fatal:before {
+    content: "";
+}
+.ui-growl-title {
+    font-weight: bold!important;
+    padding: 15px 0 0 0!important;
+    font-size: 16px!important;
+
+    margin-left: 40px;
+}
+body .ui-growl .ui-growl-item .ui-growl-message {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+
+    /*color: #282E3F!important;*/
+    color: #ffffff!important;
+}
+
+/*<editor-fold desc="FECHAR">*/
+body .ui-growl .ui-growl-item .ui-growl-icon-close:before {
+    content: url("icone-voltar2.svg")!important;
+}
+
+body .ui-growl .ui-growl-item .ui-growl-icon-close {
+    display: block;
+    content: url("icone-voltar2.svg")!important;
+}
+
+.ui-growl-icon-close.ui-icon.ui-icon-closethick {
+    display: block!important;
+}
+
+body .ui-growl .ui-growl-item .ui-growl-icon-close {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+    font-size: 14px;
+    color: #ffffff;
+
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+body .ui-growl .ui-growl-item .ui-growl-icon-close:before {
+    content: "";
+}
+/*</editor-fold>*/
+
+/*<editor-fold desc="SUCESSO">*/
+
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-info:before {
+    display: flex;
+    transform: scale(0.75);
+    margin-right: 5px;
+    content: url("icone-sucessov2.svg")!important;
+}
+body .ui-growl .ui-growl-item .ui-growl-image.ui-growl-image-info {
+    font-family: 'Material Icons';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 14px;
+    /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+    vertical-align: middle;
+}
+
+.ui-growl-item-container.ui-state-highlight.ui-corner-all.ui-helper-hidden.ui-shadow.ui-growl-info {
+    width: 360px!important;
+    height: auto;
+    padding: 2px 20px 14px 2px;
+    border-radius: 16px;
+    gap: 16px;
+
+    /*background-color: var(--azul-avante-op-40)!important;*/
+    /*background-color: var(--azul-avante)!important;*/
+    background-color: var(--azul-avante)!important;
+
+}
+
+/*</editor-fold>*/
